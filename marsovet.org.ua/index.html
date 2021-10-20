@@ -1,499 +1,787 @@
-<html lang="en">
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
-  <title>Мариупольский городской совет</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <link href="/css/index.css" media="screen" rel="stylesheet" type="text/css">
-  <link href="/css/print.css" media="print" rel="stylesheet" type="text/css">
-  <link href="/css/nivo-slider.css" media="screen" rel="stylesheet" type="text/css">
-  <link href="/css/dhonishow.css" media="screen" rel="stylesheet" type="text/css">
-  <script type="text/javascript" src="/js/jquery-1.4.4.min.js"></script>
-  <script type="text/javascript" src="/js/jquery.dhonishow.js"></script>
-  <script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+<title>Мариупольский городской совет</title>
+
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="/css/index.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
+<link href="/css/nivo-slider.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="/css/dhonishow.css" media="screen" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/jquery-1.4.4.min.js">
+</script>
+<script type="text/javascript" src="/js/jquery.dhonishow.js">
+</script>
+<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js">
+</script>
 </head>
 <body>
-  <div id="header">
-    <div class="head" style="margin-top: 20px;">
-      <div class="left hidden" style="margin: 0px 0px 20px 20px;">
-        <div>
-          <h1 style="margin-bottom: 0px;">Мариупольский городской совет</h1>
-        </div>
-        <div id="usermenu" class="small blue_lite">
-          <a class="blue_lite" href="/">marsovet.org.ua</a> / Добро пожаловать
-        </div>
-      </div>
-      <div class="right hidden" style="margin: 0px 20px 20px 0px;">
-        <span id="serch"></span>
-        <form method="get" action="/search/index/lang/" class="search">
-          <span id="serch"><input type="text" name="q" id="q" value=""> <input type="submit" name="submit" id="submit" value="" class="button"></span>
-        </form>
-        <div style="float: right; margin-right: 10px;">
-          <a href="/rss"><img src="/img/rss.png" width="20" height="20" alt=""></a>
-        </div>
-        <div id="lang" class="lang" style="padding: 5px;">
-          <span><a style="color: #00ADFF; text-decoration: none;" href="/">RU</a></span> <span><a style="color: #00ADFF; text-decoration: none;" href="/en">EN</a></span> <span><a style="color: #00ADFF; text-decoration: none;" href="/">UA</a></span>
-        </div>
-      </div>
-      <div id="slide" class="clear" style="margin: 0px 20px;">
-        <div class="left">
-          <a id="tooltiper" href="/" name="tooltiper"><img src="/img/logotype.jpg" width="231" height="257" alt="" title="Мариупольский городской совет"></a>
-        </div>
-        <script type="text/javascript">
-        //<![CDATA[
-                                $(document).ready(function() {
-                                                $('#slider').nivoSlider({
-                                                                pauseTime: 5000,
-                                                                auto: 1000
-                                                                });
-                                        });
-        //]]>
-        </script>
-        <div id="slider">
-<img src="/img/header/img_001.jpg" width="716" height="257" alt=""><img src="/img/header/img_002.jpg" width="716" height="257" alt=""><img src="/img/header/img_003.jpg" width="716" height="257" alt=""><img src="/img/header/img_004.jpg" width="716" height="257" alt=""><img src="/img/header/img_005.jpg" width="716" height="257" alt=""><img src="/img/header/img_006.jpg" width="716" height="257" alt="">
+<div id="header">
+<div class="head" style="margin-top: 20px;">
+<div class="left hidden" style="margin: 0px 0px 20px 20px;">
+<div>
+<h1 style="margin-bottom: 0px;">Мариупольский городской совет</h1>
 </div>
-      </div>
-    </div>
-    <div id="menu" class="blue_bg">
-      <div class="head">
-        <ul class="menu">
-          <li><a href="/articles/show/menu/30/lang/" title="Городской совет">Городской совет</a></li>
-          <li><a href="/articles/show/menu/35/lang/" title="Исполком городского совета">Исполком городского совета</a></li>
-          <li><a href="/articles/show/menu/39/lang/" title="Департаменты, управления, отделы">Департаменты, управления, отделы</a></li>
-          <li><a href="/articles/show/menu/43/lang/" title="Райадминистрации">Райадминистрации</a></li>
-          <li><a href="/articles/show/menu/50/lang/" title="Нормативные документы">Нормативные документы</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="wrapper" style="min-height: 600px;">
-    <div id="sideleft" class="column_left">
-      <script type="text/javascript">
-      //<![CDATA[
-
-      $(document).ready(
-        function(){
-                $('.title[rel="menu"]').click(
-                        function(){
-                                var id = $(this).attr('id');
-                                $("#submenu"+id).slideToggle("fast");
-                                $("#"+id).parent().toggleClass("submenu");
-                                return false;
-                        }
-                );
-        }
-      );
-
-      //]]>
-      </script>
-      <ul class="sidebar">
-        <li>
-          <a class="title" href="#" rel="menu" id="54" name="54">Наш город</a>
-          <ul class="submenu" id="submenu54">
-            <li><a href="/articles/show/article/61" title="Историческая справка">Историческая справка</a></li>
-            <li><a href="/articles/show/menu/62" title="Городская символика">Городская символика</a></li>
-            <li><a href="/map" title="Карта города">Карта города</a></li>
-            <li><a href="/articles/show/article/64" title="Административно-территориальное устройство">Административно-территориальное устройство</a></li>
-            <li><a href="/articles/show/article/65" title="Население">Население</a></li>
-            <li><a href="/articles/show/article/703" title="Почетные граждане города Мариуполя">Почетные граждане города Мариуполя</a></li>
-            <li><a href="/image_add/File/street.doc" title="Словарь улиц города Мариуполя">Словарь улиц города Мариуполя</a></li>
-            <li><a href="/gallery" title="Фотогалерея">Фотогалерея</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="55" name="55">Информация</a>
-          <ul class="submenu" id="submenu55">
-            <li><a href="/news" title="Новости, Архив новостей">Новости, Архив новостей</a></li>
-            <li><a href="/articles/show/menu/941" title="Доступ к публичной информации">Доступ к публичной информации</a></li>
-            <li><a href="/articles/show/menu/980" title="Вакансии">Вакансии</a></li>
-            <li><a href="/articles/show/menu/68" title="Конкурсы">Конкурсы</a></li>
-            <li><a href="/online" title="Интернет конференции">Интернет конференции</a></li>
-            <li><a href="/articles/show/menu/486" title="Семинары, совещания ">Семинары, совещания</a></li>
-            <li><a href="/articles/show/article/506" title="Опросы ">Опросы</a></li>
-            <li><a href="/articles/show/article/1234" title="Діяльність Нацдержслужби України ">Діяльність Нацдержслужби України</a></li>
-            <li><a href="/articles/show/menu/1248" title="Трудовой архив">Трудовой архив</a></li>
-            <li><a href="/articles/show/menu/959" title="Земельна реформа та запровадження ринку земель">Земельна реформа та запровадження ринку земель</a></li>
-            <li><a href="/articles/show/article/787" title="Полезные ссылки">Полезные ссылки</a></li>
-            <li><a href="/sitemap" title="Карта сайта">Карта сайта</a></li>
-            <li><a href="/articles/show/article/1134" title="Баннеры">Баннеры</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="56" name="56">Социальная сфера</a>
-          <ul class="submenu" id="submenu56">
-            <li><a href="/articles/show/menu/70" title="Занятость населения и рынок труда">Занятость населения и рынок труда</a></li>
-            <li><a href="/articles/show/menu/71" title="Пенсионное обеспечение">Пенсионное обеспечение</a></li>
-            <li><a href="/articles/show/menu/72" title="Социальное обеспечение">Социальное обеспечение</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="57" name="57">Гуманитарная сфера</a>
-          <ul class="submenu" id="submenu57">
-            <li><a href="/articles/show/menu/73" title="Охрана здоровья">Охрана здоровья</a></li>
-            <li><a href="/articles/show/menu/74" title="Образование ">Образование</a></li>
-            <li><a href="/articles/show/menu/75" title="Поддержка семьи, детей и молодежи">Поддержка семьи, детей и молодежи</a></li>
-            <li><a href="/articles/show/menu/76" title="Культура ">Культура</a></li>
-            <li><a href="/articles/show/menu/77" title="Физическая культура и спорт">Физическая культура и спорт</a></li>
-            <li><a href="/articles/show/article/78" title="Развитие туризма и курортов">Развитие туризма и курортов</a></li>
-            <li><a href="/articles/show/menu/79" title="Информационное пространство">Информационное пространство</a></li>
-            <li><a href="/articles/show/article/80" title="Объединения граждан, политические партии">Объединения граждан, политические партии</a></li>
-            <li><a href="/articles/show/article/81" title="Религия">Религия</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="58" name="58">Безопасность жизнедеятельности человека</a>
-          <ul class="submenu" id="submenu58">
-            <li><a href="/articles/show/menu/82" title="Обеспечение законности и порядка">Обеспечение законности и порядка</a></li>
-            <li><a href="/articles/show/menu/83" title="Охрана окружающей природной среды">Охрана окружающей природной среды</a></li>
-            <li><a href="/articles/show/menu/84" title="Защита территорий и населения от чрезвычайных ситуаций">Защита территорий и населения от чрезвычайных ситуаций</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="60" name="60">Научно-инновационное развитие</a>
-          <ul class="submenu" id="submenu60">
-            <li><a href="/articles/show/article/344" title="Использование научно-технических инноваций ">Использование научно-технических инноваций</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="85" name="85">Экономика</a>
-          <ul class="submenu" id="submenu85">
-            <li><a href="/articles/show/menu/86" title="Социально-экономическое положение города">Социально-экономическое положение города</a></li>
-            <li><a href="/articles/show/menu/87" title="Бюджетная политика">Бюджетная политика</a></li>
-            <li><a href="/articles/show/article/88" title="Энергосбережение">Энергосбережение</a></li>
-            <li><a href="/articles/show/menu/89" title="Промышленный комплекс">Промышленный комплекс</a></li>
-            <li><a href="/articles/show/menu/90" title="Аграрный сектор">Аграрный сектор</a></li>
-            <li><a href="/articles/show/menu/91" title="Транспорт и связь">Транспорт и связь</a></li>
-            <li><a href="/articles/show/menu/92" title="Архитектура и градостроительство">Архитектура и градостроительство</a></li>
-            <li><a href="/articles/show/menu/93" title="Развитие жилищного строительства">Развитие жилищного строительства</a></li>
-            <li><a href="/articles/show/menu/94" title="Жилищно-коммунальное хозяйство">Жилищно-коммунальное хозяйство</a></li>
-            <li><a href="/articles/show/menu/97" title="Торговля и бытовое обслуживание населения">Торговля и бытовое обслуживание населения</a></li>
-            <li><a href="/articles/show/menu/98" title="Регуляторная политика и развитие предпринимательства">Регуляторная политика и развитие предпринимательства</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="99" name="99">Внешнеэкономическая деятельность</a>
-          <ul class="submenu" id="submenu99">
-            <li><a href="/articles/show/article/342" title="Внешнеэкономические связи города ">Внешнеэкономические связи города</a></li>
-            <li><a href="/articles/show/article/653" title="Межрегиональное сотрудничество">Межрегиональное сотрудничество</a></li>
-          </ul>
-        </li>
-        <li>
-          <a class="title" href="#" rel="menu" id="100" name="100">Инвестиционная деятельность</a>
-          <ul class="submenu" id="submenu100">
-            <li><a href="/articles/show/menu/558" title="Инвестиции в экономику города ">Инвестиции в экономику города</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div id="sideright" class="column_right">
-      <div style="margin: 0 0px 25px 0;">
-        <span><a href="/articles/show/menu/387"><img src="/img/blog.jpg" alt=""></a></span>
-      </div>
-      <div>
-        <h2 class="title" style="margin-bottom: 25px;"><div><a href="/articles/show/menu/1178">Оперативные совещания</a></div></h2>
-      </div>
-      <div>
-        <h2 class="title"><div><a href="/articles/show/menu/-7">Обращения граждан</a></div></h2>
-      </div>
-      <ul class="sidebar">
-        <li>
-          <ul class="submenu">
-            <li><a href="/articles/show/menu/545" title="Порядок обращений для граждан">Порядок обращений для граждан</a></li>
-            <li><a href="/articles/show/menu/550" title="Графики приема граждан ">Графики приема граждан</a></li>
-            <li><a href="/articles/show/article/553" title="Телефоны городских служб ">Телефоны городских служб</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div style="margin: 25px 0;">
-        <span><a href="/questions"><img src="/img/img_inet.jpg" alt=""></a></span>
-      </div>
-      <div>
-        <h2 class="title"><div><a href="/gallery">Фотогалерея</a></div></h2>
-      </div>
-      <div class="gray_bg" style="padding: 8px;">
-        <div class="dhonishow effect_appear">
-          <img src="/upload/gallery/img/1212977620681300885843.jpg" width="215" height="150" alt=""> <img src="/upload/gallery/img/11297771452.jpg" width="215" height="150" alt="">
-        </div>
-        <form class="gal" name="galleryform" action="/gallery" method="post" enctype="multipart/form-data" id="galleryform">
-          <select onchange="javascript:document.galleryform.submit()" name="gallery">
-            <option value="0" selected>
-              Выбрать галерею
-            </option>
-            <option value="3">
-              Наш город
-            </option>
-            <option value="5">
-              Памятные места Мариуполя
-            </option>
-          </select>
-        </form>
-      </div>
-      <div style="margin-top:25px;"></div>
-      <div>
-        <h2 class="title"><div><a href="/entrepreneur">Помощь предпринимателю</a></div></h2>
-      </div>
-      <ul class="sidebar">
-        <li>
-          <ul class="submenu">
-            <li><a href="/articles/show/menu/308" title="Регуляторная политика">Регуляторная политика</a></li>
-            <li><a href="/articles/show/menu/311" title="Единый разрешительный центр">Единый разрешительный центр</a></li>
-            <li><a href="/articles/show/article/607" title="Отдел регистрации юридических и физических лиц, Государственный регистратор">Отдел регистрации юридических и физических лиц, Государственный регистратор</a></li>
-            <li><a href="/online" title="Интернет-семинары">Интернет-семинары</a></li>
-            <li><a href="/articles/show/article/338" title="Общественные организации">Общественные организации</a></li>
-          </ul>
-        </li>
-      </ul>
-      <div style="margin: 15px 0 15px 0px;"><img src="/img/don80let.jpg"></div>
-      <div>
-        <h2 class="title" style="margin-top:25px; color:white;">ГУВД г.Мариуполя</h2>
-      </div>
-      <div class="gray_bg" style="padding: 8px; margin-bottom: 25px;">
-        <div align="center"><img align="left" width="60" vspace="3" hspace="8" height="75" border="0" src="/images/guvd.jpg"></div>
-        <div style="margin-bottom:30px; font-size: 12px;">
-          Если Вы стали жертвой преступления, незамедлительно звоните в милицию
-        </div>- Жовтневый РОВД <b>33-30-53</b><br>
-        - Ильичевский РОВД <b>38-43-23</b><br>
-        - Ордж-ский. РОВД <b>22-11-12</b><br>
-        - Приморский РОВД <b>37-40-02</b><br>
-      </div>
-      <div style="margin-top: 20px;"><img width="231" src="http://www.meteoprog.ua/ru/informerget/?type=31&city%5B%5D=Mariupol&color=4C9ECA&txtcolor=FFFF00&day=tommorow" border="0" alt="Погода в Мариуполе" title="Погода в Мариуполе"></div>
-      <div style="margin: 25px 0 25px 0;">
-        <div style="font-size: 12px; text-align:center;"><img src="/img/drv.jpg" alt="Государственный реестр избирателей"></div>
-      </div>
-    </div>
-    <div class="column_center">
-      <h1 class="title_gray" style="color:black;">Новости городского совета</h1>
-      <div class="news_top gray_bg">
-        <a class="left" href="/news/show/id/1655"><img src="/upload/news/img/1342429491.jpg" width="150" height="150" alt="Вниманию жителей Жовтневого и Приморского районов"></a>
-        <div class="hidden" style="margin: 10px;">
-          <h2><a href="/news/show/id/1655">Вниманию жителей Жовтневого и Приморского районов</a></h2>
-          <div class="txt">
-            <p>          Коммунальное предприятие «Мариупольское производственное управление водопроводно-канализационного хозяйства» сообщает, что с  22.00 часов 18.07.2012г до 05.00 часов 19.07.2012г будет пр...</p>
-          </div>
-          <div class="date">
-            16.07.2012 | 12:03
-          </div>
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1654"><img src="/upload/news/img/s_parus1342422152.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1654">Стартовала парусная регата «Кубок Азовского моря»</a></h2>
-        <div class="txt">
-          <p>    14 июня на территории яхт-клуба «Ильичевец» состоялось торжественное открытие парусной регаты среди крейсерских яхт на «Кубок Азовского моря». На церемонии присутствовали секретарь Мариупо...</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 09:59
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1653"><img src="/upload/news/img/s_img_26491342420253.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1653">В Мариуполе прошли праздничные концерты, посвященные Дню металлургов</a></h2>
-        <div class="txt">
-          <p>  15 июня в Городском саду состоялся праздничный концерт посвященный Дню металлургов. На празднике для жителей города со своими номерами выступали творческие коллективы Городских Дворцов куль...</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 09:29
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1652"><img src="/upload/news/img/s_00801342418332.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1652">Анонс спортивно-массовых мероприятий в Мариуполе на текущую неделю</a></h2>
-        <div class="txt">
-          <p>          1.  16.07.12           Чемпионат города по футболу 2012г Начало 18:00       «Прометей» - «Старый Крым».                                   (стадион «Олимп»).   2.  17.07.12         ...</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 08:56
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1651"><img src="/upload/news/img/s_kg1342417802.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1651">Мероприятия управления культуры и туризма для жителей города на текущую неделю</a></h2>
-        <div class="txt">
-          <p>        Мероприятие Цель мероприятия Дата, время, место проведения Час интересной информации «В стране мультяшных героев» К 85-летию со дня рождения В.М.Котёно...</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 08:44
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1650"><img src="/upload/news/img/s_gv_ra1342417442.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1650">Анонс культурных, образовательных и спортивных мероприятий для жителей города в Жовтневом районе</a></h2>
-        <div class="txt">
-          <p>          Мероприятие Цель мероприятия Дата, время, место проведения Конкурсно-развлекательная программа «Город у моря» Организация досуга жителей. КСН „Западны...</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 08:42
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1649"><img src="/upload/news/img/s_ordg_ra1342417305.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1649">Анонс культурных, образовательных и спортивных мероприятий для жителей города в Орджоникидзевском районе</a></h2>
-        <div class="txt">
-          <p>          Наименование мероприятия Цель мероприятия Место, дата и время проведения       Соревнования по шашкам среди детей с вручением призов. Соревн...</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 08:35
-        </div>
-      </div>
-      <div class="news">
-        <a class="left" href="/news/show/id/1648"><img src="/upload/news/img/s_img_26021342416953.jpg" width="109" height="109" alt=""></a>
-        <h2><a href="/news/show/id/1648">В Орджоникидзевском районе отпраздновали День Металлурга</a></h2>
-        <div class="txt">
-          <p>  14 июля в детском парке «Веселка» состоялась праздничная программа для детей и их родителей, которая была посвящена Дню Металлурга. Праздник, организованный сотрудниками библиотеки им. А.С....</p>
-        </div>
-        <div class="date">
-          16.07.2012 | 08:28
-        </div>
-      </div>
-    </div>
-    <div id="plashki" class="plashki">
-      <span><a href="/articles/show/article/553"><img src="/img/block_phone.jpg" width="231" height="94" alt=""></a></span> <span><a href="/euro2012" target="_blank"><img src="/img/euro.jpg" width="209" height="94" alt=""></a></span> <span style="position:relative; top:13px"><a href="/upload/usr/files/12_let_vmeste.pdf"><img src="/img/img_book.jpg" alt=""></a></span> <span><a href="/children"><img title="Ребенку нужна помощь" src="/img/baby.jpg" width="231" height="94" alt=""></a></span>
-    </div>
-  </div>
-  <div id="footer">
-    <div class="wrapper">
-      <div id="footleft" class="left" style="width: 462px; margin: 0px 10px 0px 20px;">
-        <div>
-          <h2 class="title_gray"><a href="/lastadd/index/lang/">Последние добавления</a></h2>
-        </div>
-        <div class="gray_bg" style="padding: 8px; margin-bottom: 25px;">
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              <span class="date">09.07.2012</span>
-            </div>
-            <div class="txt">
-              <p><a style="color: #326C8B" href="/articles/show/article/1138">Вакансии</a></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              <span class="date">05.07.2012</span>
-            </div>
-            <div class="txt">
-              <p><a style="color: #326C8B" href="/image_add/File/2012/ugoda.doc">УГОДА між Маріупольською міською радою, координаційною радою профспілкових організацій та міською організацією роботодавців на 2012 -2014 роки</a></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              <span class="date">20.06.2012</span>
-            </div>
-            <div class="txt">
-              <p><a style="color: #326C8B" href="/articles/show/article/1288">ПОЛОЖЕННЯ про міський фестиваль жіночих ініціатив «Жінка, що творить добро»</a></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              <span class="date">20.06.2012</span>
-            </div>
-            <div class="txt">
-              <p><a style="color: #326C8B" href="/articles/show/article/1283">Внимание – амброзия полыннолистная!</a></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              <span class="date">05.06.2012</span>
-            </div>
-            <div class="txt">
-              <p><a style="color: #326C8B" href="/articles/show/article/1278">Материнський подвиг Олександри Деревської</a></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              <span class="date">29.05.2012</span>
-            </div>
-            <div class="txt">
-              <p><a style="color: #326C8B" href="/image_add/File/2012/infkartka2011.doc">Социальные услуги, которые предоставляют населению Центры социальных служб для семьи, детей и молодежи</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="footright" class="right" style="width: 462px; margin: 0px 20px 0px 10px;">
-        <div>
-          <h2 class="title_gray"><a href="/usefulinfo/index/lang/">Полезная информация</a></h2>
-        </div>
-        <div class="gray_bg" style="padding: 8px; margin-bottom: 25px;">
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              -
-            </div>
-            <div class="txt">
-              <p></p>
-              <p><a href="/image_add/File/2012/tv.doc" target="_blank">Инструкция подключения телетюнера</a></p>
-              <p></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              -
-            </div>
-            <div class="txt">
-              <p></p>
-              <p><a href="/articles/show/menu/1140" target="_blank">Образовательные округа города Мариуполя</a></p>
-              <p></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              -
-            </div>
-            <div class="txt">
-              <p></p>
-              <p><a href="../../articles/show/article/607" target="_blank">Информация отдела регистрации городского совета</a></p>
-              <p></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              -
-            </div>
-            <div class="txt">
-              <p></p>
-              <p><a href="../../articles/show/article/1096" target="_blank">Чтобы грел, а не горел обогреватель</a></p>
-              <p></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              -
-            </div>
-            <div class="txt">
-              <p></p>
-              <p><a href="../../articles/show/article/1087" target="_blank"><span>О предоставлении льгот по обеспечению медикаментами по рецептам врачей детей из многодетных семей</span></a></p>
-              <p></p>
-            </div>
-          </div>
-          <div class="dot_line">
-            <div class="left" style="margin-right: 10px;">
-              -
-            </div>
-            <div class="txt">
-              <p></p>
-              <p><a href="../../articles/show/article/1061" target="_blank">Правила противопожарной безопасности</a></p>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="logos" class="logos">
-        <span><img src="/upload/links/img/right_b_pres1296661781.jpg" title="Президент Украины" width="152" height="55" alt=""></span> <span><img src="/upload/links/img/right_b_rada1296661816.jpg" title="Верховная Рада Украины" width="152" height="55" alt=""></span> <span><img src="/upload/links/img/right_b_ministr1296661832.jpg" title="Кабинет Министров Украины" width="152" height="55" alt=""></span> <span><img src="/upload/links/img/right_b_donetsk1296661854.jpg" title="Донецкая облгосадминистрация" width="152" height="55" alt=""></span> <span><img src="/upload/links/img/olbsovet1296661878.jpg" title="Донецкий областной совет" width="152" height="55" alt=""></span> <span><img src="/upload/links/img/associacia_banner1296661893.jpg" title="Ассоциация городов Украины" width="152" height="55" alt=""></span>
-      </div>
-      <div id="copy1" class="copyright" style="float:left; width: 255px; margin: 0px 10px 0px 20px;">
-        <div style="width:462px; overflow:hidden; margin-bottom: 2px;">
-          <span class="left" style="margin-right: 10px;"><img src="/img/gerb.jpg" width="24" height="29" alt=""></span> <span class="left">(C) Мариупольский городской совет, 2010-2012</span>
-        </div>
-      </div>
-      <div class="copyright" style="float:left; width: 462px; margin: 0px 10px 0px 20px; font-size: 11px;">
-        <span class="left">Мариупольский городской совет<br>
-        <strong>Адрес:</strong> пр. Ленина,70, г. Мариуполь, Донецкая область, 87500 Украина<br>
-        <strong>E-mail:</strong><br>
-        <strong>Телефон:</strong> 33-22-40 (дежурный)<br>
-        При цитировании любых материалов сайта ссылка на marsovet.org.ua обязательна.<br>
-        Архив сайта расположен по адресу marsovet.org.ua/old</span>
-      </div>
-      <div id="copy2" style="float:left; width: 150px; margin: 0px 10px 0px 20px; font-size: 11px;">
-      <div style="margin-bottom: 3px;"></div>
-<img src="http://top100-images.rambler.ru/top100/banner-88x31-rambler-darkblue2.gif" alt="Rambler's Top100" width="88" height="31" border="0">
+<div id="usermenu" class="small blue_lite">
+<a class="blue_lite" href="/">marsovet.org.ua</a> / Добро пожаловать</div>
 </div>
-    </div>
-  </div>
+<div class="right hidden" style="margin: 0px 20px 20px 0px;">
+<span id="serch">
+<form method="get" action="/search/index/lang/" class="search">
+<input type="text" name="q" id="q" value="" />
+<input type="submit" name="submit" id="submit" value="" class="button" />
+</form>
+</span>
+<div style="float: right; margin-right: 10px;">
+<a href="/rss"><img src="/img/rss.png" width="20" height="20" alt="" />
+</a>
+</div>
+</div>
+<div id="slide" class="clear" style="margin: 0px 20px;">
+<div class="left">
+<a id="tooltiper" href="/"><img src="/img/logotype.jpg" width="231" height="257" alt="" title="Мариупольский городской совет" />
+</a>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+$('#slider').nivoSlider({
+pauseTime: 5000,
+auto: 1000
+});
+});
+</script>
+<div id="slider">
+<img src="/img/header/img_001.jpg" width="716" height="257" alt="" />
+<img src="/img/header/img_002.jpg" width="716" height="257" alt="" />
+<img src="/img/header/img_003.jpg" width="716" height="257" alt="" />
+<img src="/img/header/img_004.jpg" width="716" height="257" alt="" />
+<img src="/img/header/img_005.jpg" width="716" height="257" alt="" />
+<img src="/img/header/img_006.jpg" width="716" height="257" alt="" />
+</div>
+</div>
+</div>
+<!-- /.head -->
+<div id="menu" class="blue_bg">
+<div class="head">
+<ul class="menu">
+<li>
+<a href="/articles/show/menu/30/lang/" title="Городской совет">Городской совет</a>
+</li>
+<li>
+<a href="/articles/show/menu/35/lang/" title="Исполком городского совета">Исполком городского совета</a>
+</li>
+<li>
+<a href="/articles/show/menu/39/lang/" title="Департаменты, управления, отделы">Департаменты, управления, отделы</a>
+</li>
+<li>
+<a href="/articles/show/menu/43/lang/" title="Райадминистрации">Райадминистрации</a>
+</li>
+<li>
+<a href="/articles/show/menu/50/lang/" title="Нормативные документы">Нормативные документы</a>
+</li>
+</ul>
+</div>
+<!-- /.head -->
+</div>
+</div>
+<!-- /header -->
+<div class="wrapper" style="min-height: 600px;">
+<div id="sideleft" class="column_left">
+<script type="text/javascript">
+$(document).ready(
+function(){
+$('.title[rel="menu"]').click(
+function(){
+var id = $(this).attr('id');
+$("#submenu"+id).slideToggle("fast");
+$("#"+id).parent().toggleClass("submenu");
+return false;});});
+</script>
+<ul class="sidebar">
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="54">Наш город</a>
+<ul class="submenu" id="submenu54">
+<li>
+<a href="/articles/show/article/61" title="Историческая справка">Историческая справка</a>
+</li>
+<li>
+<a href="/articles/show/menu/62" title="Городская символика">Городская символика</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/map" title="Карта города">Карта города</a>
+</li>
+<li>
+<a href="/articles/show/article/64" title="Административно-территориальное  устройство">Административно-территориальное  устройство</a>
+</li>
+<li>
+<a href="/articles/show/article/65" title="Население">Население</a>
+</li>
+<li>
+<a href="/articles/show/article/703" title="Почетные граждане города Мариуполя">Почетные граждане города Мариуполя</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/image_add/File/street.doc" title="Словарь улиц города Мариуполя">Словарь улиц города Мариуполя</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/gallery" title="Фотогалерея">Фотогалерея</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="55">Информация</a>
+<ul class="submenu" id="submenu55">
+<li>
+<a href="http://marsovet.org.ua/news" title="Новости,  Архив новостей">Новости,  Архив новостей</a>
+</li>
+<li>
+<a href="/articles/show/menu/941" title="Доступ к публичной информации">Доступ к публичной информации</a>
+</li>
+<li>
+<a href="/articles/show/menu/980" title="Вакансии">Вакансии</a>
+</li>
+<li>
+<a href="/articles/show/menu/68" title="Конкурсы">Конкурсы</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/online" title="Интернет конференции">Интернет конференции</a>
+</li>
+<li>
+<a href="/articles/show/menu/486" title="Семинары, совещания">Семинары, совещания</a>
+</li>
+<li>
+<a href="/articles/show/article/506" title="Опросы">Опросы</a>
+</li>
+<li>
+<a href="/articles/show/article/1234" title="Діяльність Нацдержслужби України">Діяльність Нацдержслужби України</a>
+</li>
+<li>
+<a href="/articles/show/menu/1248" title="Трудовой архив">Трудовой архив</a>
+</li>
+<li>
+<a href="/articles/show/menu/959" title="Земельна реформа та запровадження ринку земель">Земельна реформа та запровадження ринку земель</a>
+</li>
+<li>
+<a href="/articles/show/article/787" title="Полезные ссылки">Полезные ссылки</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/sitemap" title="Карта сайта">Карта сайта</a>
+</li>
+<li>
+<a href="/articles/show/article/1134" title="Баннеры">Баннеры</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="56">Социальная сфера</a>
+<ul class="submenu" id="submenu56">
+<li>
+<a href="/articles/show/menu/70" title="Занятость населения и рынок труда">Занятость населения и рынок труда</a>
+</li>
+<li>
+<a href="/articles/show/menu/71" title="Пенсионное обеспечение">Пенсионное обеспечение</a>
+</li>
+<li>
+<a href="/articles/show/menu/72" title="Социальное обеспечение">Социальное обеспечение</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="57">Гуманитарная сфера</a>
+<ul class="submenu" id="submenu57">
+<li>
+<a href="/articles/show/menu/73" title="Охрана здоровья">Охрана здоровья</a>
+</li>
+<li>
+<a href="/articles/show/menu/74" title="Образование">Образование</a>
+</li>
+<li>
+<a href="/articles/show/menu/75" title="Поддержка семьи, детей и молодежи">Поддержка семьи, детей и молодежи</a>
+</li>
+<li>
+<a href="/articles/show/menu/76" title="Культура">Культура</a>
+</li>
+<li>
+<a href="/articles/show/menu/77" title="Физическая культура и спорт">Физическая культура и спорт</a>
+</li>
+<li>
+<a href="/articles/show/article/78" title="Развитие туризма и курортов">Развитие туризма и курортов</a>
+</li>
+<li>
+<a href="/articles/show/menu/79" title="Информационное пространство">Информационное пространство</a>
+</li>
+<li>
+<a href="/articles/show/article/80" title="Объединения граждан, политические партии">Объединения граждан, политические партии</a>
+</li>
+<li>
+<a href="/articles/show/article/81" title="Религия">Религия</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="58">Безопасность жизнедеятельности человека</a>
+<ul class="submenu" id="submenu58">
+<li>
+<a href="/articles/show/menu/82" title="Обеспечение законности и порядка">Обеспечение законности и порядка</a>
+</li>
+<li>
+<a href="/articles/show/menu/83" title="Охрана окружающей природной среды">Охрана окружающей природной среды</a>
+</li>
+<li>
+<a href="/articles/show/menu/84" title="Защита территорий и населения от чрезвычайных ситуаций">Защита территорий и населения от чрезвычайных ситуаций</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="60">Научно-инновационное развитие</a>
+<ul class="submenu" id="submenu60">
+<li>
+<a href="/articles/show/article/344" title="Использование научно-технических инноваций">Использование научно-технических инноваций</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="85">Экономика</a>
+<ul class="submenu" id="submenu85">
+<li>
+<a href="/articles/show/menu/86" title="Социально-экономическое положение города">Социально-экономическое положение города</a>
+</li>
+<li>
+<a href="/articles/show/menu/87" title="Бюджетная политика">Бюджетная политика</a>
+</li>
+<li>
+<a href="/articles/show/article/88" title="Энергосбережение">Энергосбережение</a>
+</li>
+<li>
+<a href="/articles/show/menu/89" title="Промышленный комплекс">Промышленный комплекс</a>
+</li>
+<li>
+<a href="/articles/show/menu/90" title="Аграрный сектор">Аграрный сектор</a>
+</li>
+<li>
+<a href="/articles/show/menu/91" title="Транспорт и связь">Транспорт и связь</a>
+</li>
+<li>
+<a href="/articles/show/menu/92" title="Архитектура и градостроительство">Архитектура и градостроительство</a>
+</li>
+<li>
+<a href="/articles/show/menu/93" title="Развитие жилищного строительства">Развитие жилищного строительства</a>
+</li>
+<li>
+<a href="/articles/show/menu/94" title="Жилищно-коммунальное  хозяйство">Жилищно-коммунальное  хозяйство</a>
+</li>
+<li>
+<a href="/articles/show/menu/97" title="Торговля и бытовое обслуживание населения">Торговля и бытовое обслуживание населения</a>
+</li>
+<li>
+<a href="/articles/show/menu/98" title="Регуляторная политика и развитие предпринимательства">Регуляторная политика и развитие предпринимательства</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="99">Внешнеэкономическая деятельность</a>
+<ul class="submenu" id="submenu99">
+<li>
+<a href="/articles/show/article/342" title="Внешнеэкономические связи города">Внешнеэкономические связи города</a>
+</li>
+<li>
+<a href="/articles/show/article/653" title="Межрегиональное сотрудничество">Межрегиональное сотрудничество</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+<li>
+<a class="title" href="javascript:void(0);" rel="menu" id="100">Инвестиционная деятельность</a>
+<ul class="submenu" id="submenu100">
+<li>
+<a href="/articles/show/menu/558" title="Инвестиции в экономику города">Инвестиции в экономику города</a>
+</li>
+</ul>
+<!-- /.submenu -->
+</li>
+</ul>
+</div>
+<!-- .column_left -->
+<div id="sideright" class="column_right">
+<div style="margin: 0 0px 25px 0;">
+<span>
+<a href="/articles/show/menu/387"><img src="/img/blog.jpg"  alt="" />
+</a>
+</span>
+</div>
+<!-- /.book -->
+<h2 class="title" style="margin-bottom: 25px;">
+<div>
+<a href="/articles/show/menu/1178">Оперативные совещания</a>
+</div>
+</h2>
+<h2 class="title">
+<div>
+<a href="/articles/show/menu/-7">Обращения граждан</a>
+</div>
+</h2>
+<ul class="sidebar">
+<li>
+<ul class="submenu">
+<li>
+<a href="/articles/show/menu/545" title="Порядок обращений для граждан">Порядок обращений для граждан</a>
+</li>
+<li>
+<a href="/articles/show/menu/550" title="Графики приема граждан">Графики приема граждан</a>
+</li>
+<li>
+<a href="/articles/show/article/553" title="Телефоны городских служб">Телефоны городских служб</a>
+</li>
+</ul>
+</li>
+</ul>
+<div style="margin: 25px 0;">
+<!--<h2 class="title" style="background: none;">
+<div>
+<a href="/upload/usr/files/12_let_vmeste.pdf">Скачать книгу</a>
+</div>
+</h2>
+<div class="txt">
+<p>12 лет вместе или хроники созидательной работы</p>
+</div> /.txt -->
+<span>
+<a href="/questions"><img src="/img/img_inet.jpg"  alt="" />
+</a>
+</span>
+</div>
+<!-- /.book -->
+<h2 class="title">
+<div>
+<a href="/gallery">Фотогалерея</a>
+</div>
+</h2>
+<div class="gray_bg" style="padding: 8px;">
+<div class="dhonishow effect_appear">
+<a title="Наш город" href="/gallery/index/gallery/3"><img src="/upload/gallery/img/1212977620681300885843.jpg" width="215" height="150" alt="" />
+</a>
+<a title="Памятные места Мариуполя" href="/gallery/index/gallery/5"><img src="/upload/gallery/img/11297771452.jpg" width="215" height="150" alt="" />
+</a>
+</div>
+<form class="gal" name="galleryform" action="/gallery" method="POST" enctype="multipart/form-data">
+<select onchange="javascript:document.galleryform.submit()" name="gallery">
+<option value="0" selected="selected">Выбрать галерею</option>
+<option value="3">Наш город</option>
+<option value="5">Памятные места Мариуполя</option>
+</select>
+</form>
+</div>
+<!-- /.gray_bg -->
+<div style="margin-top:25px;">
+</div>
+<h2 class="title">
+<div>
+<a href="/entrepreneur">Помощь предпринимателю</a>
+</div>
+</h2>
+<ul class="sidebar">
+<li>
+<ul class="submenu">
+<li>
+<a href="http://marsovet.org.ua/articles/show/menu/308" title="Регуляторная политика">Регуляторная политика</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/articles/show/menu/311" title="Единый разрешительный центр">Единый разрешительный центр</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/articles/show/article/607" title="Отдел регистрации юридических и физических лиц, Государственный регистратор">Отдел регистрации юридических и физических лиц, Государственный регистратор</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/online" title="Интернет-семинары">Интернет-семинары</a>
+</li>
+<li>
+<a href="http://marsovet.org.ua/articles/show/article/338" title="Общественные организации">Общественные организации</a>
+</li>
+</ul>
+</li>
+</ul>  
+<div style="margin: 15px 0 15px 0px;">
+<img src="/img/don80let.jpg" />
+</div>
+<h2 class="title" style="margin-top:25px; color:white;">
+<div>ГУВД г.Мариуполя</div>
+</h2>
+<div class="gray_bg" style="padding: 8px; margin-bottom: 25px;">
+<div align="center"><img align="left" width="60" vspace="3" hspace="8" height="75" border="0" src="/images/guvd.jpg"/>
+</div>
+<div style="margin-bottom:30px; font-size: 12px;">Если Вы стали жертвой преступления, незамедлительно звоните в милицию</div>
+- Жовтневый РОВД <b>33-30-53</b>
+<br/>- Ильичевский РОВД <b>38-43-23</b>
+<br/>- Ордж-ский. РОВД <b>22-11-12</b>
+<br/>- Приморский РОВД <b>37-40-02</b>
+<br/>
+</div>
+<!-- /.gray_bg -->
+<div style="margin-top: 20px;">
+</div>
+<div  style=" margin: 25px 0 25px 0;">
+<div style="font-size: 12px; text-align:center;">
+<img src="/img/drv.jpg"  alt='Государственный реестр избирателей' />
+</div>
+</div>
+</div>
+<!-- /.column_right -->
+<div class="column_center">
+<h1 class="title_gray" style="color:black;">Новости городского совета</h1>
+<div class="news_top gray_bg">
+<a class="left" href="/news/show/id/1655"><img src="/upload/news/img/1342429491.jpg" width="150" height="150" alt="Вниманию жителей Жовтневого и Приморского районов" />
+</a>
+<div class="hidden" style="margin: 10px;">
+<h2>
+<a href="/news/show/id/1655">Вниманию жителей Жовтневого и Приморского районов</a>
+</h2>
+<div class="txt">
+<p>Коммунальное предприятие «Мариупольское производственное управление водопроводно-канализационного хозяйства» сообщает, что с  22.00 часов 18.07.2012г до 05.00 часов 19.07.2012г будет пр...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;12:03</div>
+</div>
+</div>
+<!-- /.news_top -->
+<div class="news">
+<a class="left" href="/news/show/id/1654"><img src="/upload/news/img/s_parus1342422152.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1654">Стартовала парусная регата «Кубок Азовского моря»</a>
+</h2>
+<div class="txt">
+<p>14 июня на территории яхт-клуба «Ильичевец» состоялось торжественное открытие парусной регаты среди крейсерских яхт на «Кубок Азовского моря». На церемонии присутствовали секретарь Мариупо...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;09:59</div>
+</div>
+<!-- /.news -->
+<div class="news">
+<a class="left" href="/news/show/id/1653"><img src="/upload/news/img/s_img_26491342420253.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1653">В Мариуполе прошли праздничные концерты,  посвященные Дню металлургов</a>
+</h2>
+<div class="txt">
+<p>15 июня в Городском саду состоялся праздничный концерт посвященный Дню металлургов. На празднике для жителей города со своими номерами выступали творческие коллективы Городских Дворцов куль...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;09:29</div>
+</div>
+<!-- /.news -->
+<div class="news">
+<a class="left" href="/news/show/id/1652"><img src="/upload/news/img/s_00801342418332.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1652">Анонс спортивно-массовых мероприятий в Мариуполе на текущую неделю</a>
+</h2>
+<div class="txt">
+<p>
+1. 16.07.12 Чемпионат города по футболу 2012г 
+Начало 18:00 «Прометей» - «Старый Крым».
+(стадион «Олимп»).
+2. 17.07.12 ...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;08:56</div>
+</div>
+<!-- /.news -->
+<div class="news">
+<a class="left" href="/news/show/id/1651"><img src="/upload/news/img/s_kg1342417802.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1651">Мероприятия управления культуры и туризма для жителей города на текущую неделю</a>
+</h2>
+<div class="txt">
+<p>
+Мероприятие
+Цель мероприятия
+Дата, время,
+место проведения
+Час интересной   информации «В стране мультяшных героев»
+К 85-летию со дня   рождения В.М.Котёно...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;08:44</div>
+</div>
+<!-- /.news -->
+<div class="news">
+<a class="left" href="/news/show/id/1650"><img src="/upload/news/img/s_gv_ra1342417442.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1650">Анонс культурных, образовательных и спортивных мероприятий для жителей города в Жовтневом районе</a>
+</h2>
+<div class="txt">
+<p>
+Мероприятие
+Цель мероприятия
+Дата, время, место проведения
+Конкурсно-развлекательная программа «Город   у моря»
+Организация досуга жителей.
+КСН „Западны...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;08:42</div>
+</div>
+<!-- /.news -->
+<div class="news">
+<a class="left" href="/news/show/id/1649"><img src="/upload/news/img/s_ordg_ra1342417305.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1649">Анонс культурных, образовательных и спортивных мероприятий для жителей города в Орджоникидзевском районе</a>
+</h2>
+<div class="txt">
+<p>
+Наименование мероприятия
+Цель мероприятия
+Место, дата и время проведения
+Соревнования   по шашкам среди детей с вручением призов.
+Соревн...</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;08:35</div>
+</div>
+<!-- /.news -->
+<div class="news">
+<a class="left" href="/news/show/id/1648"><img src="/upload/news/img/s_img_26021342416953.jpg" width="109" height="109" alt="" />
+</a>
+<h2>
+<a href="/news/show/id/1648">В Орджоникидзевском районе  отпраздновали День Металлурга</a>
+</h2>
+<div class="txt">
+<p>14 июля в детском парке «Веселка» состоялась праздничная программа для детей и их родителей, которая была посвящена Дню Металлурга. Праздник, организованный сотрудниками библиотеки им. А.С....</p>
+</div>
+<!-- /.txt -->
+<div class="date">16.07.2012&nbsp;|&nbsp;08:28</div>
+</div>
+<!-- /.news -->
+</div>
+<!-- .column_center -->
+<div id="plashki" class="plashki">
+<span>
+<a href="/articles/show/article/553"><img src="/img/block_phone.jpg" width="231" height="94" alt="" />
+</a>
+</span>
+<span>
+<a href="/euro2012" target="_blank"><img src="/img/euro.jpg" width="209" height="94" alt="" />
+</a>
+</span>
+<span style="position:relative; top:13px">
+<a href="/upload/usr/files/12_let_vmeste.pdf"><img src="/img/img_book.jpg"  alt="" />
+</a>
+</span>
+<span>
+<a href="/children"><img title="Ребенку нужна помощь" src="/img/baby.jpg" width="231" height="94" alt="" />
+</a>
+</span>
+</div>
+</div>
+<!-- /.wrapper -->
+<div id="footer">
+<div class="wrapper">
+<div id="footleft" class="left" style="width: 462px; margin: 0px 10px 0px 20px;">
+<h2 class="title_gray">
+<div>
+<a href="/lastadd/index/lang/">Последние добавления</a>
+</div>
+</h2>
+<div class="gray_bg" style="padding: 8px; margin-bottom: 25px;">
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">
+<span class="date">09.07.2012</span>
+</div>
+<div class="txt">
+<p>
+<a style="color: #326C8B" href="/articles/show/article/1138">Вакансии</a>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">
+<span class="date">05.07.2012</span>
+</div>
+<div class="txt">
+<p>
+<a style="color: #326C8B" href="/image_add/File/2012/ugoda.doc">УГОДА між Маріупольською міською радою, координаційною радою профспілкових організацій та міською організацією роботодавців на 2012 -2014 роки</a>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">
+<span class="date">20.06.2012</span>
+</div>
+<div class="txt">
+<p>
+<a style="color: #326C8B" href="/articles/show/article/1288">ПОЛОЖЕННЯ про міський фестиваль жіночих ініціатив «Жінка, що творить добро»</a>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">
+<span class="date">20.06.2012</span>
+</div>
+<div class="txt">
+<p>
+<a style="color: #326C8B" href="/articles/show/article/1283">Внимание – амброзия полыннолистная!</a>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">
+<span class="date">05.06.2012</span>
+</div>
+<div class="txt">
+<p>
+<a style="color: #326C8B" href="/articles/show/article/1278">Материнський подвиг Олександри Деревської</a>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">
+<span class="date">29.05.2012</span>
+</div>
+<div class="txt">
+<p>
+<a style="color: #326C8B" href="/image_add/File/2012/infkartka2011.doc">Социальные услуги, которые предоставляют населению Центры социальных служб для семьи, детей и молодежи</a>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+</div>
+<!-- /.gray_bg -->
+</div>
+<div id="footright" class="right" style="width: 462px; margin: 0px 20px 0px 10px;">
+<h2 class="title_gray">
+<div>
+<a href="/usefulinfo/index/lang/">Полезная информация</a>
+</div>
+</h2>
+<div class="gray_bg" style="padding: 8px; margin-bottom: 25px;">
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">-</div>
+<div class="txt">
+<p>
+<p>
+<a href="/image_add/File/2012/tv.doc" target="_blank">Инструкция подключения телетюнера</a>
+</p>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">-</div>
+<div class="txt">
+<p>
+<p>
+<a href="/articles/show/menu/1140" target="_blank">Образовательные округа города Мариуполя</a>
+</p>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">-</div>
+<div class="txt">
+<p>
+<p>
+<a href="/articles/show/article/607" target="_blank">Информация отдела регистрации городского совета</a>
+</p>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">-</div>
+<div class="txt">
+<p>
+<p>
+<a href="/articles/show/article/1096" target="_blank">Чтобы грел, а не горел обогреватель</a>
+</p>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">-</div>
+<div class="txt">
+<p>
+<p>
+<a href="/articles/show/article/1087" target="_blank">
+<span>О предоставлении льгот по обеспечению медикаментами по рецептам врачей детей из многодетных семей</span>
+</a>
+</p>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+<div class="dot_line">
+<div class="left" style="margin-right: 10px;">-</div>
+<div class="txt">
+<p>
+<p>
+<a href="/articles/show/article/1061" target="_blank">Правила противопожарной безопасности</a>
+</p>
+</p>
+</div>
+</div>
+<!-- /.dot_line -->
+</div>
+<!-- /.gray_bg -->
+</div>
+<div id="logos" class="logos">
+<span><img src="/upload/links/img/right_b_pres1296661781.jpg" title="Президент Украины" width="152" height="55" alt="" />
+</span>
+<span><img src="/upload/links/img/right_b_rada1296661816.jpg" title="Верховная Рада Украины" width="152" height="55" alt="" />
+</span>
+<span><img src="/upload/links/img/right_b_ministr1296661832.jpg" title="Кабинет Министров Украины" width="152" height="55" alt="" />
+</span>
+<span><img src="/upload/links/img/right_b_donetsk1296661854.jpg" title="Донецкая облгосадминистрация" width="152" height="55" alt="" />
+</span>
+<span><img src="/upload/links/img/olbsovet1296661878.jpg" title="Донецкий областной совет" width="152" height="55" alt="" />
+</span>
+<span><img src="/upload/links/img/associacia_banner1296661893.jpg" title="Ассоциация городов Украины" width="152" height="55" alt="" />
+</span>
+</div>
+<!-- /.logos -->
+<div id="copy1" class="copyright" style="float:left; width: 255px; margin: 0px 10px 0px 20px;">
+<div style="width:462px; overflow:hidden; margin-bottom: 2px;">
+<span class="left" style="margin-right: 10px;"><img src="/img/gerb.jpg" width="24" height="29" alt="" />
+</span>
+<span class="left">(C) Мариупольский городской совет, 2010-2021</span>
+</div>
+</div>
+<!-- /.copyright -->
+<div class="copyright" style="float:left; width: 462px; margin: 0px 10px 0px 20px; font-size: 11px;">
+<span class="left">
+Мариупольский городской совет<br/>
+<strong>Адрес:</strong>
+пр. Ленина,70, г. Мариуполь, Донецкая область, 87500 Украина<br/>
+<strong>E-mail:</strong>
+<br/>
+<strong>Телефон:</strong>
+33-22-40 (дежурный)
+<br />
+При цитировании любых материалов сайта ссылка на marsovet.org.ua обязательна.<br />
+Архив сайта расположен по адресу <a href="/old">marsovet.org.ua/old</a>
+</span>
+</div>
+<!-- /.copyright -->
+<div id="copy2" style="float:left; width: 150px; margin: 0px 10px 0px 20px; font-size: 11px;">
+</div>
+</div>
+<!-- /.wrapper -->
+</div>
+<!-- /footer -->
 </body>
 </html>
