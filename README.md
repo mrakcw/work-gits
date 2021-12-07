@@ -45,4 +45,4 @@
 * Uncss - `aojiru-ts.vscode-uncss`
 * W3C Web Validator - `celianriboulet.webvalidat
 
-And other turned off plugins 🚧
+> And other turned off plugins 🚧
