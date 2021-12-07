@@ -30,12 +30,12 @@
 * Material Icon - `pkief.material-icon-theme`
 * Minify All - `josee9988.minifyall `
 * Polacode - `pnp.polacode`
-* `Prettier Formatter` - `esbenp.prettier-vscode`
+* Prettier Formatter - `esbenp.prettier-vscode`
 * Project Manager - `alefragnani.project-manager`
 * RegExp Preview - `louiswt.regexp-preview`
 * Language Pack - `ms-ceintl.vscode-language-pack-ru`
 * SCSS Formatter - `sibiraj-s.vscode-scss-formatter`
-* SCSS IntelliSensemrmlnc.vscode-scss`
+* SCSS IntelliSense - `mrmlnc.vscode-scss`
 * Settings Sync - `shan.code-settings-sync`
 * Shortcut Menu Bar - `jerrygoyal.shortcut-menu-bar`
 * Svg Preview - `simonsiefke.svg-preview`
