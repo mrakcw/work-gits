@@ -43,6 +43,6 @@
 * IntelliCode - `visualstudioexptteam.vscodeintellicode`
 * Translate text - `ddot.vscode-translate`
 * Uncss - `aojiru-ts.vscode-uncss`
-* W3C Web Validator - `celianriboulet.webvalidat
+* W3C Web Validator - `celianriboulet.webvalidat`
 
 > And other turned off plugins 🚧
