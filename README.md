@@ -1,6 +1,6 @@
 # Some configs
 
-## VS Code 
+## VS Code TOP Extensions 💦
 
 ### 🏆 My TOP plugins for VS Code workspace 🧰
 
