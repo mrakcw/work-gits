@@ -28,7 +28,7 @@
 * Live Share - `ms-vsliveshare.vsliveshare`
 * Luna Paint - `tyriar.luna-paint`
 * Material Icon - `pkief.material-icon-theme`
-* Minify All - `josee9988.minifyall `
+* Minify All - `josee9988.minifyall`
 * Polacode - `pnp.polacode`
 * Prettier Formatter - `esbenp.prettier-vscode`
 * Project Manager - `alefragnani.project-manager`
@@ -44,6 +44,7 @@
 * Translate text - `ddot.vscode-translate`
 * Uncss - `aojiru-ts.vscode-uncss`
 * W3C Web Validator - `celianriboulet.webvalidat`
+* Labels HTML end tags - `anteprimorac.html-end-tag-labels`
 
 > And other turned off plugins 🚧
 
@@ -81,8 +82,8 @@
 "html.format.wrapLineLength": 0,
 "liveSassCompile.settings.generateMap": true,
 "liveSassCompile.settings.formats": [
-	{"format": "expanded","autoprefix": "last 5 versions","extensionName": ".css","savePath": "/css"},
-	{"format": "compressed","autoprefix": "last 5 versions","extensionName": ".min.css","savePath": "/css/min"}
+ {"format": "expanded","autoprefix": "last 5 versions","extensionName": ".css","savePath": "/css"},
+ {"format": "compressed","autoprefix": "last 5 versions","extensionName": ".min.css","savePath": "/css/min"}
 ],
 "html.format.indentHandlebars": true,
 "[html]": {"editor.defaultFormatter": "vscode.html-language-features"},
@@ -147,7 +148,7 @@
 "MinifyAll.disableJsonc": true,
 "MinifyAll.disableJson": true,
 "amphtml.validator.enabled": true,
-"amphtml.validator.documentSelector": ["html","htm"	],
+"amphtml.validator.documentSelector": ["html","htm" ],
 "amphtml.validator.keepIssuesAfterDocumentClose": true,
 "debug.javascript.autoExpandGetters": true,
 "microsoftTranslatorExt.appendText": false,
@@ -191,7 +192,7 @@
 "editor.insertSpaces": false,
 "php.validate.enable": false,
 "workbench.editorAssociations": {
-	"*.db": "default"
+ "*.db": "default"
 },
 "liveshare.presence": true,
 "window.zoomLevel": -2,
