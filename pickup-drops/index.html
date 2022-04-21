@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru" >
+<head>
+  <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=7">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Инструкция №1 - простое восстановление дропа, базовые операции</title>
+	<meta name="description" content="Подробное и визуально понятное руководство - чэк лист по базовым операциям обработки дропов">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+	<!-- <link rel="stylesheet" href="/style.css"> -->
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+			body { font-family: 'Open Sans', sans-serif;}
+			h1 { text-align: center; font-size: 28px; font-weight: 600; margin-top: 40px; margin-bottom: 30px;}
+			ul { margin: 0; padding: 0; list-style: none;}
+			ul li { cursor: pointer; position: relative; padding: 12px 8px 12px 40px; background: #eee; font-size: 18px; border-bottom: 2px solid rgba(234, 230, 230, 0.08); transition: 0.2s; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+			ul li:nth-child(2n) { background: #f9f9f9;}
+			ul li:hover { background: #ddd;}
+			ul li.checked { background: #2568ff; color: #fff; text-decoration: line-through;}
+			ul li.checked::before { content: ''; position: absolute; border-color: #fff; border-style: solid; border-width: 0 2px 2px 0; top: 15px; left: 15px; transform: rotate(45deg); height: 15px; width: 7px;}
+			.close { position: absolute; right: 10px; top: 10px; width: 29px; height: 29px; text-align: center; padding: 3px; border-radius: 50%;}
+			.close:hover { background-color: #ff392a; color: #ffffff;}
+			.todo-data-form { padding: 15px 0; float: left; width: 100%;}
+			/* .header { background-color: #f44336; padding: 30px 40px; color: white; text-align: center;}
+			.header:after { content: ""; display: table; clear: both;} */
+	</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Simple ToDo check list using CSS &amp; JS - Bootstrap compatible</h1>
+		</div>
+		
+		<div class="col-md-12">
+			<h3>My To Do List</h3>
+		</div>
+		
+		<div class="col-md-12">
+			<div class="row">
+				<div class="todo-data-form form-group" id="myDIV">
+					<div class="col-md-8">
+						<input type="text" id="myInput" placeholder="Insert todo item here.." class="form-control input-lg">
+					</div>
+					<div class="col-md-4">
+						<span onclick="newElement()" class="btn btn-block btn-success btn-lg">Add</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="col-md-12">
+			<ul id="myUL">
+				<li class="checked">Start check-list template</li>
+			</ul>
+		</div>
+		
+		<div class="col-md-12">
+			<p>Follow on my tg group: <a href="https://t.me/mr_libs" target="_blank">Вжух </a></p>
+		</div>
+	</div>
+</div>
+<!-- partial -->
+  <script>
+		// Simple ToDo check list using CSS & JS - Bootstrap compatible 
+// Deigned by Nishant Dogra
+// Date: 08/03/2018
+// Twitter: @mrdogra007
+// Blog: https://t.co/F6RF2rCHu3
+// Create a "close" button and append it to each list item
+var myNodelist = document.getElementsByTagName("LI");
+var i;
+for (i = 0; i < myNodelist.length; i++) {
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  myNodelist[i].appendChild(span);
+}
+
+// Click on a close button to hide the current list item
+var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
+
+// Add a "checked" symbol when clicking on a list item
+var list = document.querySelector('ul');
+list.addEventListener('click', function(ev) {
+  if (ev.target.tagName === 'LI') {
+    ev.target.classList.toggle('checked');
+  }
+}, false);
+
+// Create a new list item when clicking on the "Add" button
+function newElement() {
+  var li = document.createElement("li");
+  var inputValue = document.getElementById("myInput").value;
+  var t = document.createTextNode(inputValue);
+  li.appendChild(t);
+  if (inputValue === '') {
+    alert("You must write something!");
+  } else {
+    document.getElementById("myUL").appendChild(li);
+  }
+  document.getElementById("myInput").value = "";
+
+  var span = document.createElement("SPAN");
+  var txt = document.createTextNode("\u00D7");
+  span.className = "close";
+  span.appendChild(txt);
+  li.appendChild(span);
+
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function() {
+      var div = this.parentElement;
+      div.style.display = "none";
+    }
+  }
+}
+	</script>
+
+</body>
+</html>
