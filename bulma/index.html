@@ -1,17 +1,163 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="robots" content="nofollow, noindex, noarchive">
-	<title>Title</title>
-	<meta name="description" content="Desc">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma-helpers/0.4.2/css/bulma-helpers.min.css" integrity="sha512-U6ELnUi7oqVEjkLmFw5r5UR5LEtvpImS/jUykBKneVhD0lxZxfJZ3k3pe003ktrtNZYungd9u3Urp2X09wKwXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma-tooltip/1.2.0/bulma-tooltip.min.css" integrity="sha512-eQONsEIU2JzPniggWsgCyYoASC8x8nS0w6+e5LQZbdvWzDUVfUh+vQZFmB2Ykj5uqGDIsY7tSUCdTxImWBShYg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-	
-</body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="no-cors">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <!-- MT -->
+    <title>MrakCw TK - test dev project</title>
+    <meta name="description" content="TMrakCw TK - test dev project">
+    <!-- Options -->
+    <link rel="canonical" href="https://mrakcw.tk/">
+    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
+    <!-- <link rel="apple-touch-icon" href="./favicon.png" type="image/png"> -->
+    <!-- Files -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma-helpers/0.4.2/css/bulma-helpers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.8.1/cyborg/bulmaswatch.min.css">
+    <style>
+      /*! It's MOBILE-FIRST */
+      html{ height: 100%; width: 100%; position: relative;}
+      body{ font-family: monospace; font-size: 18px;}
+      body::-webkit-scrollbar{ width: .75em; background-color: #fb3; outline: 1px solid slategrey;}
+      body::-webkit-scrollbar-button{ display: none;}
+      body::-webkit-scrollbar-track{ box-shadow: inset 0 0 1px rgba(0, 0, 0, .89);}
+      body::-webkit-scrollbar-thumb{ max-width: 1em; background-color: red; border-radius: 3em; -webkit-border-radius: 3em; -moz-border-radius: 3em; -ms-border-radius: 3em; -o-border-radius: 3em;}
+      .hero nav.container{ position: relative; max-height: 65px; height: 100%;}
+      .navbar-brand .navbar-item img{ max-width: -webkit-fill-available; max-height: -webkit-fill-available;}
+      .navbar-brand{ flex: 0 0 100%;}
+      label[for="navbar-burger"]{ display: grid; place-items: center; max-height: 60px; height: 60px; width: 60px; overflow-y: hidden;}
+      label[for="navbar-burger"] svg{ width: 100%; height: 100%; max-width: 2em; max-height: fit-content; display: flex; justify-content: center; align-items: center;}
+      #checkbox-navbar .navbar-menu{ opacity: 0;}
+      #navbar-burger{ opacity: 0; height: 100%; z-index: -99;}
+      #navbar-burger:checked+.navbar-menu{ display: flex; flex-direction: column; position: absolute; width: 96%; top: 4.99em; border: solid 10px #999;}
+      #navbar-burger{ width: 2em; display: none;}
+      #navbar-burger:checked+.navbar-menu{ display: flex; flex-direction: column; position: absolute; width: 96%; top: 4.99em; border: solid 10px #999;}
+      /* #navbar-burger:not(#navbar-burger:checked)+.navbar-menu{} */
+      #burger{ max-height: 4em; max-width: -webkit-fill-available; position: relative;}
+      .navbar-item img{ width: 90%; height: 90%; pointer-events: none;}
+      #burger a:hover img{ filter: drop-shadow(0px 0px 4px #fff);}
+      .navbar-logo{ filter: drop-shadow(2px 3px 0px #fff);}
+      .nav-logo .navbar-logo:hover{ background-color: unset;}
+      .iv-template{ background: rgb(2, 0, 36); background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 5%, rgba(52, 49, 236, 1) 51%, rgba(42, 10, 44, 1) 95%); background-size: 350% 350%; -webkit-animation: AnimateBG 20s ease infinite; animation: AnimateBG 20s ease infinite;}
+      .hero-head.navbar{ border-bottom: 3px #fb3 solid; border-top: 2px #fb3 solid;}
+      .its-my{ transform: scale(.85);}
+      .title, .subtitle{ text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; filter: drop-shadow(2px 2px 2px #000);}
+      .toggle-links{ flex: 0 0 95px}
+      .main-links{ flex: 1 1 auto}
+      /* ! It's 2th STEP-DECKTOP */
+      @media screen and (min-width: 1024px){ label[for="navbar-burger"]{ display: none;}}
+      @-webkit-keyframes AnimateBG{ 0%{ background-position: 0% 50%;} 50%{ background-position: 100% 50%;} 100%{ background-position: 0% 50%;}}
+      @keyframes AnimateBG{ 0%{ background-position: 0% 50%;} 50%{ background-position: 100% 50%;} 100%{ background-position: 0% 50%;}}
+    </style>
+    <!-- ? IV PROPERTY -->
+    <meta property="og:site_name" content="PROTOTYPE MrakCw.tk 🌍">
+    <meta property="og:description" content="IV Page MrakCw.tk 🚀 ">
+    <meta property="article:author" content="MrakCw">
+    <meta property="og:image" content="https://mrakcw.tk/assets/img/-.jpg">
+    <!-- ВЖУХ -->
+    <meta property="telegram:channel" content="@mr_libs">
+    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
+    <meta property="article:published_time" content="">
+    <!--2022-01-07T11:00:00.654Z-->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mrakcw.tk/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="Pr">
+    <meta property="og:image" content="https://mrakcw.tk/assetst/img/-card.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mrakcw.tk/">
+    <meta property="twitter:title" content="&#128047; ">
+    <meta property="twitter:description" content="QQ">
+    <meta property="twitter:image" content="https://mrakcw.tk/assets/img/-card.jpg">
+    <meta name="author" content="MrakCw">
+    <meta name="application-name" content="Personal Web Page &#128170;">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="application/ld+json">
+      {"@context": "https://www.schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Thing",
+          "@id": "https://mrakcw.tk/",
+          "name": "Hustle harder"}},
+        {"@type": "ListItem",
+        "position": 2,
+          "item": {
+          "@type": "Thing",
+          "@id": "https://mrakcw.tk#hello",
+          "name": " template"}}]}
+    </script>
+  </head>
+  <body>
+    <!-- IV Schem -->
+    <!-- ? IV TEMPLATE START -->
+    <article itemprop="articleBody" class="article__content">
+      <!-- 1st screen -->
+      <section class="hero iv-template is-fullheight is-primary">
+        <!-- ! hero-head -->
+        <header class="hero-head navbar is-fixed-top has-background-black">
+          <nav class="container is-max-desktop">
+            <div class="navbar-brand is-fullwidth" id="burger" role="navigation" aria-label="main navigation">
+              <a class="navbar-item nav-logo image" href="https://mrakcw.tk/">
+                <img src="https://mrakcw.cc.ua/img/mr-navbar.svg" class="navbar-logo image" alt="" width="" height="">
+              </a>
+              <label for="navbar-burger" class="touch navbar-burger burger is-desktop"><svg viewBox="0 0 448 440" width="90" fill="#fff">
+                  <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+                </svg></label>
+              <input type="checkbox" id="navbar-burger">
+              <div id="checkbox-navbar" class="navbar-menu">
+                <div class="navbar-end main-links">
+                  <a class="navbar-item">Home</a>
+                  <a class="navbar-item">Documentation</a>
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">More</a>
+                    <div class="navbar-dropdown">
+                      <a class="navbar-item">About</a>
+                      <a class="navbar-item">Jobs</a>
+                      <a class="navbar-item">Contact</a>
+                      <hr class="navbar-divider">
+                      <a class="navbar-item">Report an issue</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="navbar-end toggle-links">
+                  <div class="navbar-item images">
+                    <a href="https://mrakcw.tk/" class="image is-64x64"><img src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" alt="" class="its-my is-rounded"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+        <!-- ! hero-body -->
+        <div class="hero-body" id="hello">
+          <div class="container columns is-vcentered is-centered">
+            <!-- IV Schem -->
+            <!-- COL £1 -->
+            <!-- ? COVER FOR IV CARD ARTICLE -->
+            <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="image is-128x128 column is-narrow-desktop">
+              <a name="article-img">
+                <img class="image is-rounded" src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" itemprop="contentUrl" width="350" height="350">
+              </a>
+              <figcaption itemprop="description">MrakCw</figcaption>
+            </figure>
+            <!-- COL £2 -->
+            <div class="column">
+              <h1 class="title is-1 is-family-code has-text-white pb-4">👑 Fullheight title</h1>
+              <p class="subtitle">Table of content</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+    <div class="level is-centered">🤙 &copy; 2022 <br> © 2022 GitHub, Inc.</div>
+    <!-- --- 🤙 --- -->
+  </body>
 </html>
