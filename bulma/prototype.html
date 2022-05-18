@@ -1,19 +1,20 @@
-<!DOCTYPE html>a
+<!DOCTYPE html>
 <html lang="en">
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Access-Control-Allow-Origin" content="no-cors">
     <meta name="robots" content="noindex, nofollow, noarchive">
     <!-- MT -->
-    <title>Prototype</title>
-    <meta name="description" content="Test page for Bulma.io case">
+    <title>MrakCw TK - test dev project</title>
+    <meta name="description" content="TMrakCw TK - test dev project">
   
     <!-- Options -->
-    <!-- <link rel="canonical" href="PROTO-URL">
+    <link rel="canonical" href="https://mrakcw.tk/">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" href="./favicon.png" type="image/png"> -->
+    <!-- <link rel="apple-touch-icon" href="./favicon.png" type="image/png"> -->
     
     <!-- Files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
@@ -67,6 +68,12 @@
         50% {background-position:100% 50%;}
         100% {background-position:0% 50%;}}
     </style>
+    <style>
+      article{ background: #ECEFF1; border-radius: 4px; overflow: hidden; font: 12px/1.1 system-ui, sans-serif;} 
+      article a{ text-decoration: none; color: #455A64;} 
+      article a:hover, article a:focus{ color: #2196F3;} 
+      article h2{ padding: 1rem 1rem; margin: 0;}
+    </style>
 
     <!-- ? IV PROPERTY -->
     <meta property="og:site_name" content="PROTOTYPE 🌍">
@@ -96,6 +103,7 @@
 
     <meta name="author" content="MrakCw">
     <meta name="application-name" content="Personal Web Page &#128170;">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script type="application/ld+json">
       {"@context": "https://www.schema.org",
@@ -105,13 +113,13 @@
         "position": 1,
         "item": {
           "@type": "Thing",
-          "@id": "https://blog..cc.ua/",
-          "name": "My blog"}},
+          "@id": "https://mrakcw.tk/",
+          "name": "Hustle harder"}},
         {"@type": "ListItem",
         "position": 2,
           "item": {
           "@type": "Thing",
-          "@id": "https://blog..cc.ua/in-test",
+          "@id": "https://mrakcw.tk#hello",
           "name": " template"}}]}
     </script>
 
@@ -127,7 +135,7 @@
       <header class="hero-head navbar is-fixed-top has-background-black">
         <nav class="container is-max-desktop">
             <div class="navbar-brand is-fullwidth" id="burger" role="navigation" aria-label="main navigation">
-              <a class="navbar-item nav-logo image" href="https://mrakcw.cc.ua/">
+              <a class="navbar-item nav-logo image" href="https://mrakcw.tk/">
                 <img src="https://mrakcw.cc.ua/img/mr-navbar.svg" class="navbar-logo image" alt="" width="" height="">
               </a>
               <label for="navbar-burger" class="touch navbar-burger burger is-desktop"><svg viewBox="0 0 448 440" width="90" fill="#fff"><path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></svg></label>
@@ -149,7 +157,7 @@
                   </div>
                   <div class="navbar-end toggle-links">
                     <div class="navbar-item images">
-                        <a href="https://blog.mrakcw.cc.ua/" class="image is-64x64"><img src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" alt="" class="its-my is-rounded"></a>
+                        <a href="https://mrakcw.tk/" class="image is-64x64"><img src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" alt="" class="its-my is-rounded"></a>
                     </div>
                   </div>
               </div>
@@ -158,7 +166,7 @@
       </header>
 
       <!-- ! hero-body -->
-      <div class="hero-body">
+      <div class="hero-body" id="hello">
         <div class="container columns is-vcentered is-centered">
           <!-- IV Schem -->
           <!-- COL £1 -->
@@ -189,23 +197,88 @@
         </nav>
       </div>
       </section>
-      <!-- 2st screen -->
-      <section class="hero is-primary is-fullheight">
-        <div class="hero-body container">
-        <h2 class="title">Hello world 👑 🤙</h2>
-        <p class="subtitle">Articles intro</p>
-        </div>
-      </section>
-      <!-- 3st screen -->
-      <section class="hero is-primary is-fullheight">
-        <div class="hero-body container">
-          <h2 class="title">Hello again 👑 🤙</h2>
-          <p class="subtitle">topic intro</p>
-        </div>
-      </section>
-    <div class="level is-centered">🤙 &copy; 2022 </div>
-    </article>
-    <!-- --- 🤙 --- -->
-  </body>
 
+      <section class="is-fullheight">
+        
+
+      </section>
+
+    </article>
+    <div class="level is-centered">🤙 &copy; 2022 <br> © 2022 GitHub, Inc.</div>
+    <!-- --- 🤙 --- -->
+
+<script>
+//  fetch(URL, {
+//   mode: 'cors',
+//   headers: {
+//     'Access-Control-Allow-Origin':'*'
+//   }
+// })
+//   .then(response => response.json())
+//   .then(data => {
+
+              const RSS_URL = "https://tg.i-c-a.su/rss/mr_libs";
+
+              fetch(RSS_URL, { mode: "no-cors", headers: {"Access-Control-Allow-Origin":"*"}})
+                .then(response => response.text())
+                .then(str => new window.DOMParser().parseFromString(str, "text/xml"))
+                .then(data => {
+                  console.log(data);
+                  const items = data.querySelectorAll("item");
+                  let html = ``;
+                  items.forEach(el => {
+                    html += `
+                      <article>
+                        <h2>
+                          <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
+                            ${el.querySelector("title").innerHTML}
+                          </a>
+                          <p>
+                            ${el.querySelector("description").innerHTML}
+                          </p>
+                        </h2>
+                      </article>
+                    `;
+                  });
+                  document.body.insertAdjacentHTML("beforeend", html);
+                })
+
+
+
+    // var myImage = document.querySelector('img');
+
+    // var myHeaders = new Headers();
+    // myHeaders.append('Content-Type', 'image/jpeg');
+
+    // var myInit = {
+    //   method: 'GET',
+    //   headers: myHeaders,
+    //   mode: 'cors',
+    //   cache: 'default'
+    // };
+
+    // var myRequest = new Request('flowers.jpg');
+
+    // fetch(myRequest, myInit)
+    // .then(function(response) {
+    //   if (!response.ok) {
+    //     throw new Error("HTTP error, status = " + response.status);
+    //   }
+    //   return response.blob();
+    // })
+    // .then(function(blob) {
+    //   var objectURL = URL.createObjectURL(blob);
+    //   myImage.src = objectURL;
+    // })
+    // .catch(function(error) {
+    //   var p = document.createElement('p');
+    //   p.appendChild(
+    //     document.createTextNode('Error: ' + error.message)
+    //   );
+    //   document.body.insertBefore(p, myImage);
+    // });
+
+
+        </script>
+          </body>
 </html>
