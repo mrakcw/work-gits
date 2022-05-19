@@ -1,0 +1,141 @@
+{
+    "status": "ok",
+    "feed": {
+        "url": "https://tg.i-c-a.su/rss/mr_libs/",
+        "title": "Channel: mr_libs",
+        "link": "https://tg.i-c-a.su/",
+        "author": "",
+        "description": "Telegram public channel RSS feed",
+        "image": ""
+    },
+    "items": [
+        {
+            "title": "[Media] Что такое CORS - Еще один блог веб-разработчика",
+            "pubDate": "2022-05-18 19:55:51",
+            "link": "https://t.me/mr_libs/592",
+            "guid": "https://t.me/mr_libs/592",
+            "author": "",
+            "thumbnail": "https://tg.i-c-a.su/media/mr_libs/592/preview/thumb.jpeg",
+            "description": "\n<br>Что такое CORS - Еще один блог веб-разработчика<br><a href=\"https://webdevblog.ru/chto-takoe-cors/\" target=\"_blank\" rel=\"nofollow\">https://webdevblog.ru/chto-takoe-cors/</a><br><br><blockquote cite=\"https://webdevblog.ru/chto-takoe-cors/\">\n<cite><b>Еще один блог веб-разработчика</b></cite><b>Что такое CORS - Еще один блог веб-разработчика</b>Перевод статьи от том что такое Same-origin policy и CORS и зачем они нужны. Оригинальная статьи Martin Splitt - Understanding CORS<img src=\"https://tg.i-c-a.su/media/mr_libs/592/preview/thumb.jpeg\">\n</blockquote>\n",
+            "content": "\n<br>Что такое CORS - Еще один блог веб-разработчика<br><a href=\"https://webdevblog.ru/chto-takoe-cors/\" target=\"_blank\" rel=\"nofollow\">https://webdevblog.ru/chto-takoe-cors/</a><br><br><blockquote cite=\"https://webdevblog.ru/chto-takoe-cors/\">\n<cite><b>Еще один блог веб-разработчика</b></cite><b>Что такое CORS - Еще один блог веб-разработчика</b>Перевод статьи от том что такое Same-origin policy и CORS и зачем они нужны. Оригинальная статьи Martin Splitt - Understanding CORS<img src=\"https://tg.i-c-a.su/media/mr_libs/592/preview/thumb.jpeg\">\n</blockquote>\n",
+            "enclosure": {
+                "link": "https://tg.i-c-a.su/media/mr_libs/592/5943638102738315802_y_4.jpg",
+                "type": "image/jpeg",
+                "length": 37013
+            },
+            "categories": []
+        },
+        {
+            "title": "[Media]",
+            "pubDate": "2022-05-18 15:12:01",
+            "link": "https://t.me/mr_libs/591",
+            "guid": "https://t.me/mr_libs/591",
+            "author": "",
+            "thumbnail": "https://tg.i-c-a.su/media/mr_libs/591/preview/thumb.jpeg",
+            "description": "\n<br><a href=\"https://flaviocopes.com/chrome-devtools-tips/\" target=\"_blank\" rel=\"nofollow\">https://flaviocopes.com/chrome-devtools-tips/</a><br><br><blockquote cite=\"https://flaviocopes.com/chrome-devtools-tips/\">\n<cite><b>Flaviocopes</b></cite><b>A list of cool Chrome DevTools Tips and Tricks</b>The Chrome DevTools provide an amazing set of tools to help you develop on the Web platform. Here are a few tips you might not know yet<img src=\"https://tg.i-c-a.su/media/mr_libs/591/preview/thumb.jpeg\">\n</blockquote>\n",
+            "content": "\n<br><a href=\"https://flaviocopes.com/chrome-devtools-tips/\" target=\"_blank\" rel=\"nofollow\">https://flaviocopes.com/chrome-devtools-tips/</a><br><br><blockquote cite=\"https://flaviocopes.com/chrome-devtools-tips/\">\n<cite><b>Flaviocopes</b></cite><b>A list of cool Chrome DevTools Tips and Tricks</b>The Chrome DevTools provide an amazing set of tools to help you develop on the Web platform. Here are a few tips you might not know yet<img src=\"https://tg.i-c-a.su/media/mr_libs/591/preview/thumb.jpeg\">\n</blockquote>\n",
+            "enclosure": {
+                "link": "https://tg.i-c-a.su/media/mr_libs/591/532580304552855968_w_4.jpg",
+                "type": "image/jpeg",
+                "length": 139152
+            },
+            "categories": []
+        },
+        {
+            "title": "[Media] Data Studio Connector",
+            "pubDate": "2022-05-16 19:42:25",
+            "link": "https://t.me/mr_libs/590",
+            "guid": "https://t.me/mr_libs/590",
+            "author": "",
+            "thumbnail": "",
+            "description": "\n<br>Data Studio Connector<br><a href=\"https://docs.ahrefs.com/data-studio\" target=\"_blank\" rel=\"nofollow\">https://docs.ahrefs.com/data-studio</a><br><br><blockquote cite=\"https://docs.ahrefs.com/data-studio\">\n<cite><b>Data Studio Connector</b></cite>Google Data Studio allows users to subscribe to data from various sources and visualize it in the form of reports and dashboards.</blockquote>\n",
+            "content": "\n<br>Data Studio Connector<br><a href=\"https://docs.ahrefs.com/data-studio\" target=\"_blank\" rel=\"nofollow\">https://docs.ahrefs.com/data-studio</a><br><br><blockquote cite=\"https://docs.ahrefs.com/data-studio\">\n<cite><b>Data Studio Connector</b></cite>Google Data Studio allows users to subscribe to data from various sources and visualize it in the form of reports and dashboards.</blockquote>\n",
+            "enclosure": {},
+            "categories": []
+        },
+        {
+            "title": "[Media]",
+            "pubDate": "2022-05-16 09:59:00",
+            "link": "https://t.me/mr_libs/588",
+            "guid": "https://t.me/mr_libs/588",
+            "author": "",
+            "thumbnail": "https://tg.i-c-a.su/media/mr_libs/588/preview/thumb.jpeg",
+            "description": "\n<br><a href=\"https://proglib.io/p/js-concepts\" target=\"_blank\" rel=\"nofollow\">https://proglib.io/p/js-concepts</a><br><br><blockquote cite=\"https://proglib.io/p/js-concepts\">\n<cite><b>Библиотека программиста</b></cite><b>TOП-12 JavaScript-концепций: от ссылок до асинхронных операций</b>12 JavaScript-концепций, в которых должен разбираться каждый уважающий себя разработчик. Знать – необходимо, повторять – полезно.<img src=\"https://tg.i-c-a.su/media/mr_libs/588/preview/thumb.jpeg\">\n</blockquote>\n",
+            "content": "\n<br><a href=\"https://proglib.io/p/js-concepts\" target=\"_blank\" rel=\"nofollow\">https://proglib.io/p/js-concepts</a><br><br><blockquote cite=\"https://proglib.io/p/js-concepts\">\n<cite><b>Библиотека программиста</b></cite><b>TOП-12 JavaScript-концепций: от ссылок до асинхронных операций</b>12 JavaScript-концепций, в которых должен разбираться каждый уважающий себя разработчик. Знать – необходимо, повторять – полезно.<img src=\"https://tg.i-c-a.su/media/mr_libs/588/preview/thumb.jpeg\">\n</blockquote>\n",
+            "enclosure": {
+                "link": "https://tg.i-c-a.su/media/mr_libs/588/6002635457143351929_y_4.jpg",
+                "type": "image/jpeg",
+                "length": 138751
+            },
+            "categories": []
+        },
+        {
+            "title": "[Media] About Us - Course Joiner",
+            "pubDate": "2022-05-15 23:03:43",
+            "link": "https://t.me/mr_libs/587",
+            "guid": "https://t.me/mr_libs/587",
+            "author": "",
+            "thumbnail": "",
+            "description": "\n<br>About Us - Course Joiner<br><a href=\"https://www.coursejoiner.com/about-us/\" target=\"_blank\" rel=\"nofollow\">https://www.coursejoiner.com/about-us/</a><br><br><blockquote cite=\"https://www.coursejoiner.com/about-us/\">\n<cite><b>Course Joiner</b></cite><b>About Us - Course Joiner</b>Course Joiner is an education app, where you get many paid courses with certificates for free including udemy, Coursera and google. After enhancing your skills through Free course, you can also enrol for Paid internship and Free Online workshops. After the enrollment in the courses, you have access to lifetime […]</blockquote>\n",
+            "content": "\n<br>About Us - Course Joiner<br><a href=\"https://www.coursejoiner.com/about-us/\" target=\"_blank\" rel=\"nofollow\">https://www.coursejoiner.com/about-us/</a><br><br><blockquote cite=\"https://www.coursejoiner.com/about-us/\">\n<cite><b>Course Joiner</b></cite><b>About Us - Course Joiner</b>Course Joiner is an education app, where you get many paid courses with certificates for free including udemy, Coursera and google. After enhancing your skills through Free course, you can also enrol for Paid internship and Free Online workshops. After the enrollment in the courses, you have access to lifetime […]</blockquote>\n",
+            "enclosure": {},
+            "categories": []
+        },
+        {
+            "title": "[Media] GitHub Profile Readme Generator | GitHub Profile Readme Generator",
+            "pubDate": "2022-05-15 22:28:46",
+            "link": "https://t.me/mr_libs/586",
+            "guid": "https://t.me/mr_libs/586",
+            "author": "",
+            "thumbnail": "",
+            "description": "\n<br>GitHub Profile Readme Generator | GitHub Profile Readme Generator<br><a href=\"https://rahuldkjain.github.io/gh-profile-readme-generator/\" target=\"_blank\" rel=\"nofollow\">https://rahuldkjain.github.io/gh-profile-readme-generator/</a><br><br><blockquote cite=\"https://rahuldkjain.github.io/gh-profile-readme-generator/\">\n<cite><b>rahuldkjain.github.io</b></cite><b>GitHub Profile Readme Generator</b>Prettify your github profile using this amazing readme generator.</blockquote>\n",
+            "content": "\n<br>GitHub Profile Readme Generator | GitHub Profile Readme Generator<br><a href=\"https://rahuldkjain.github.io/gh-profile-readme-generator/\" target=\"_blank\" rel=\"nofollow\">https://rahuldkjain.github.io/gh-profile-readme-generator/</a><br><br><blockquote cite=\"https://rahuldkjain.github.io/gh-profile-readme-generator/\">\n<cite><b>rahuldkjain.github.io</b></cite><b>GitHub Profile Readme Generator</b>Prettify your github profile using this amazing readme generator.</blockquote>\n",
+            "enclosure": {},
+            "categories": []
+        },
+        {
+            "title": "[Media] https://github.",
+            "pubDate": "2022-05-15 22:27:03",
+            "link": "https://t.me/mr_libs/585",
+            "guid": "https://t.me/mr_libs/585",
+            "author": "",
+            "thumbnail": "https://tg.i-c-a.su/media/mr_libs/585/preview/thumb.jpeg",
+            "description": "\n<br><a href=\"https://github.com/rzashakeri/beautify-github-profile\" target=\"_blank\" rel=\"nofollow\">https://github.com/rzashakeri/beautify-github-profile</a><br><br><blockquote cite=\"https://github.com/rzashakeri/beautify-github-profile?utm_source=tldrnewsletter\">\n<cite><b>GitHub</b></cite><b>GitHub - rzashakeri/beautify-github-profile: This repository helps you to have a more beautiful and attractive github profile, and you can access a set of tools and guides for beautifying your github profile. 🚩</b>This repository helps you to have a more beautiful and attractive github profile, and you can access a set of tools and guides for beautifying your github profile. 🚩 - GitHub - rzashakeri/beautify-...<img src=\"https://tg.i-c-a.su/media/mr_libs/585/preview/thumb.jpeg\">\n</blockquote>\n",
+            "content": "\n<br><a href=\"https://github.com/rzashakeri/beautify-github-profile\" target=\"_blank\" rel=\"nofollow\">https://github.com/rzashakeri/beautify-github-profile</a><br><br><blockquote cite=\"https://github.com/rzashakeri/beautify-github-profile?utm_source=tldrnewsletter\">\n<cite><b>GitHub</b></cite><b>GitHub - rzashakeri/beautify-github-profile: This repository helps you to have a more beautiful and attractive github profile, and you can access a set of tools and guides for beautifying your github profile. 🚩</b>This repository helps you to have a more beautiful and attractive github profile, and you can access a set of tools and guides for beautifying your github profile. 🚩 - GitHub - rzashakeri/beautify-...<img src=\"https://tg.i-c-a.su/media/mr_libs/585/preview/thumb.jpeg\">\n</blockquote>\n",
+            "enclosure": {
+                "link": "https://tg.i-c-a.su/media/mr_libs/585/6052047045839138439_y_4.jpg",
+                "type": "image/jpeg",
+                "length": 103512
+            },
+            "categories": []
+        },
+        {
+            "title": "[Media] https://dev.",
+            "pubDate": "2022-05-15 22:12:58",
+            "link": "https://t.me/mr_libs/584",
+            "guid": "https://t.me/mr_libs/584",
+            "author": "",
+            "thumbnail": "https://tg.i-c-a.su/media/mr_libs/584/preview/thumb.jpeg",
+            "description": "\n<br><a href=\"https://dev.to/whitep4nth3r/how-i-massively-improved-my-website-performance-by-using-the-right-tool-for-the-job-23cl\" target=\"_blank\" rel=\"nofollow\">https://dev.to/whitep4nth3r/how-i-massively-improved-my-website-performance-by-using-the-right-tool-for-the-job-23cl</a><br><br><blockquote cite=\"https://dev.to/whitep4nth3r/how-i-massively-improved-my-website-performance-by-using-the-right-tool-for-the-job-23cl\">\n<cite><b>DEV Community</b></cite><b>How I massively improved my website performance by using the right tool for the job</b>Great website performance and top notch Core Web Vitals are key to ensuring your site is fast,...<img src=\"https://tg.i-c-a.su/media/mr_libs/584/preview/thumb.jpeg\">\n</blockquote>\n",
+            "content": "\n<br><a href=\"https://dev.to/whitep4nth3r/how-i-massively-improved-my-website-performance-by-using-the-right-tool-for-the-job-23cl\" target=\"_blank\" rel=\"nofollow\">https://dev.to/whitep4nth3r/how-i-massively-improved-my-website-performance-by-using-the-right-tool-for-the-job-23cl</a><br><br><blockquote cite=\"https://dev.to/whitep4nth3r/how-i-massively-improved-my-website-performance-by-using-the-right-tool-for-the-job-23cl\">\n<cite><b>DEV Community</b></cite><b>How I massively improved my website performance by using the right tool for the job</b>Great website performance and top notch Core Web Vitals are key to ensuring your site is fast,...<img src=\"https://tg.i-c-a.su/media/mr_libs/584/preview/thumb.jpeg\">\n</blockquote>\n",
+            "enclosure": {
+                "link": "https://tg.i-c-a.su/media/mr_libs/584/5919261363014839675_y_4.jpg",
+                "type": "image/jpeg",
+                "length": 48999
+            },
+            "categories": []
+        },
+        {
+            "title": "[Media]",
+            "pubDate": "2022-05-15 21:27:31",
+            "link": "https://t.me/mr_libs/583",
+            "guid": "https://t.me/mr_libs/583",
+            "author": "",
+            "thumbnail": "",
+            "description": "\n<br><a href=\"https://runebook.dev/ru/docs/http/cors\" target=\"_blank\" rel=\"nofollow\">https://runebook.dev/ru/docs/http/cors</a><br><br><blockquote cite=\"https://runebook.dev/ru/docs/http/cors\">\n<cite><b>runebook.dev</b></cite><b>HTTP - CORS - Совместное использование ресурсов между источниками ( CORS ) - это механизм на о - Русский</b>Пример запроса из разных источников: интерфейсный код JavaScript, обслуживаемый с https://domain-a.com , использует XMLHttpRequest для запроса https:/</blockquote>\n",
+            "content": "\n<br><a href=\"https://runebook.dev/ru/docs/http/cors\" target=\"_blank\" rel=\"nofollow\">https://runebook.dev/ru/docs/http/cors</a><br><br><blockquote cite=\"https://runebook.dev/ru/docs/http/cors\">\n<cite><b>runebook.dev</b></cite><b>HTTP - CORS - Совместное использование ресурсов между источниками ( CORS ) - это механизм на о - Русский</b>Пример запроса из разных источников: интерфейсный код JavaScript, обслуживаемый с https://domain-a.com , использует XMLHttpRequest для запроса https:/</blockquote>\n",
+            "enclosure": {},
+            "categories": []
+        }
+    ]
+}

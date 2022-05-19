@@ -94,6 +94,35 @@
           "@id": "https://mrakcw.tk#hello",
           "name": " template"}}]}
     </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+		<style>
+      body {font-family: 'Jura', sans-serif;}
+      /* button option */
+      #get-contact {min-width: 295px;max-width: 296px;}
+      #get-contact::before {content: '';background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg>');width: 1rem;height: 1rem;transform: translateX(-.5rem);margin-left: .5rem;}
+      #get-contact::after {content: 'Open to new Projects';}
+      #get-contact:hover {display:flex;margin:0 auto;justify-content:space-around;color:#000;}
+			#get-contact:hover::before{content:'GET IN TOUCH';background:none; width: auto;height: auto;}
+			#get-contact:hover::after{content:'➜';width:1rem;}
+
+      /* button option */
+      .level.is-centered p {text-align: center;margin: 0.5rem auto;}
+      figure figcaption {text-align: center;/*font-family: 'Skranji', cursive;*/margin: .5rem 0 0 0;font-size: 1.75rem;font-family: 'Press Start 2P', cursive;}
+      figure, figure figcaption {text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; filter: drop-shadow(2px 2px 1px #000);}
+      @media (max-width: 480px) {
+        .container.columns.is-vcentered.is-centered {margin: 0 auto;display: flex;flex-direction: column;}
+        figure figcaption {text-align: center;}
+        figure.image.is--128x128.column.is-narrow-desktop {max-width: 60vw;}
+        /* .hero-body, .section{ padding: 70px 1.5rem 0} */
+      }
+			
+		</style>
   </head>
   <body>
     <!-- IV Schem -->
@@ -142,22 +171,131 @@
             <!-- IV Schem -->
             <!-- COL £1 -->
             <!-- ? COVER FOR IV CARD ARTICLE -->
-            <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="image is-128x128 column is-narrow-desktop">
+            <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="image is--128x128 column is-narrow-desktop">
               <a name="article-img">
                 <img class="image is-rounded" src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" itemprop="contentUrl" width="350" height="350">
               </a>
-              <figcaption itemprop="description">MrakCw</figcaption>
+              <figcaption itemprop="description">MrakCw Dev</figcaption>
             </figure>
             <!-- COL £2 -->
-            <div class="column">
-              <h1 class="title is-1 is-family-code has-text-white pb-4">👑 Fullheight title</h1>
-              <p class="subtitle">Table of content</p>
+            <div class="column has-text-centered pt-6">
+              <h1 class="title has-text-white pb-4">HI THERE 👋</h1>
+              <div><span class="greetings-emoji ml-1 sm:ml-2 transform-gpu">🙌</span></div>
+              <p class="subtitle">I'M MRAKCW — JUNIOR FRONT END DEVELOPER.</p>
+              <!-- <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold">GET IN TOUCH</a> -->
+              <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact"></a>
+              <!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg> -->
             </div>
           </div>
         </div>
+				<div class="level is-centered"><p>🤙 2022 <br> © 2022 GitHub, Inc.</p></div>
       </section>
     </article>
-    <div class="level is-centered">🤙 &copy; 2022 <br> © 2022 GitHub, Inc.</div>
+    <!-- <div class="level is-centered"><p>🤙 2022 <br> © 2022 GitHub, Inc.</p></div> -->
     <!-- --- 🤙 --- -->
+    <script>
+      function smile (t, e, n) {
+      "use strict";
+      n.r(e);
+      n(45);
+      var r = {
+          props: { intro: { type: Boolean, default: !1 } },
+          data: function () {
+            return { current: 0 };
+          },
+          computed: {
+            emoji: function () {
+              var t = this.current,
+                e = "👋";
+              return (
+                t > 10 && (e = "😊"),
+                t > 20 && (e = "😎"),
+                t > 30 && (e = "🤩"),
+                t > 40 && (e = "🙌"),
+                t > 50 && (e = "✌"),
+                t > 60 && (e = "🤘"),
+                t > 70 && (e = "🖖"),
+                t > 80 && (e = "🙋‍♂️"),
+                t > 90 && (e = "👋"),
+                e
+              );
+            },
+          },
+          methods: {
+            randomize: function () {
+              var t = this;
+              (this.current = 100 * Math.random()),
+                setTimeout(function () {
+                  t.current = 100 * Math.random();
+                }, 200),
+                setTimeout(function () {
+                  t.current = 100 * Math.random();
+                }, 400),
+                setTimeout(function () {
+                  t.current = 100 * Math.random();
+                }, 800),
+                setTimeout(function () {
+                  t.current = 100 * Math.random();
+                }, 1e3);
+            },
+          },
+          mounted: function () {
+            this.randomize();
+          },
+        },
+        l = n(14),
+        component = Object(l.a)(
+          r,
+          function () {
+            var t = this,
+              e = t.$createElement,
+              n = t._self._c || e;
+            return n(
+              "h5",
+              {
+                staticClass: "uppercase text-gray-300",
+                on: { mouseenter: t.randomize },
+              },
+              [
+                t.intro
+                  ? n(
+                      "n-link",
+                      {
+                        staticClass: "tracking-widest",
+                        attrs: { to: "/", "aria-label": "Back to home" },
+                      },
+                      [
+                        n("span", { staticClass: "hidden xs:inline-block" }, [
+                          t._v("NicovanZyl"),
+                        ]),
+                        t._v(" "),
+                        n("span", { staticClass: "xs:hidden" }, [t._v("NVZ")]),
+                      ]
+                    )
+                  : n("span", [
+                      t._v("Hi "),
+                      n("span", { staticClass: "hidden xs:inline-block" }, [
+                        t._v("there"),
+                      ]),
+                    ]),
+                t._v(" "),
+                n(
+                  "span",
+                  { staticClass: "greetings-emoji ml-1 sm:ml-2 transform-gpu" },
+                  [t._v(t._s(t.emoji))]
+                ),
+              ],
+              1
+            );
+          },
+          [],
+          !1,
+          null,
+          null,
+          null
+        );
+      e.default = component.exports;
+    }
+    </script>
   </body>
 </html>
