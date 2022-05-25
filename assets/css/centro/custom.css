@@ -6,7 +6,7 @@ input[type="checkbox"] {-webkit-box-sizing: border-box;-moz-box-sizing: border-b
 nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 #menuToggle{filter:opacity(0);}
 .hero-head{position:relative;height:4em}
-section.hero { background-image: url(/img/cool-background.png);background-repeat: round;}
+section.hero { background-image: url(/work-gits/asset/img/cool-background.png);background-repeat: round;}
 .hero nav.navbar {
   background: #337;
 }
