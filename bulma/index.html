@@ -37,7 +37,7 @@
       #navbar-burger:checked+.navbar-menu{ display: flex; flex-direction: column; position: absolute; width: 96%; top: 4.99em; border: solid 10px #999;}
       /* #navbar-burger:not(#navbar-burger:checked)+.navbar-menu{} */
       #burger{ max-height: 4em; max-width: -webkit-fill-available; position: relative;}
-      .navbar-item img{ width:auto;height:100%;pointer-events:none;}
+      .navbar-item img{ width:100%;height:100%;pointer-events:none;}
       nav.navbar.border .navbar-item img {max-height:48px;}
       #burger a:hover img{ filter: drop-shadow(0px 0px 4px #fff);}
       .navbar-logo{ filter: drop-shadow(2px 3px 0px #fff);}
@@ -220,8 +220,29 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 							<label for="menuToggle" class="navbar-item touch"><svg viewBox="0 0 448 512" width="15" fill="#fff">	<path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></svg></label>
 							<input id="menuToggle" type="checkbox">
 							<ul class="navbar-menu navbar-burger has-background-white-bis has-text-centered">
-								<li class="navbar-item"><div class="subtitle">📞 +38 (000) 000-39-03</div></li>
-								<li class="navbar-item"><div class="button is-danger is-rounded is-outlined">🏠 Some text</div></li>
+								<li class="navbar-item"><div class="subtitle">About</div></li>
+								<li class="navbar-item"><div class="subtitle">Documentation</div></li>
+								<li class="navbar-item"><div class="subtitle"><div class="dropdown is-active">
+                  <div class="dropdown-trigger">
+                    <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>More</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                  </div>
+                  <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="#" class="dropdown-item">
+                        
+                      </a>
+                      <a class="dropdown-item">
+                        
+                      </a>
+                    </div>
+                  </div>
+                </div></div></li>
+								<li class="navbar-item"><a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a></li>
 							</ul>
 						</div>
 					</div>
@@ -244,7 +265,7 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
               <h1 class="title has-text-white pb-4">HI THERE 👋</h1>
               <p class="subtitle">I'M DENIS aka MRAKCW — JUNIOR FRONT END DEVELOPER.</p>
               <!-- <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold">GET IN TOUCH</a> -->
-              <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a>
+              <!-- <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a> -->
               <!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg> -->
             </div>
           </div>
