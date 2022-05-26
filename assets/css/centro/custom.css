@@ -5,7 +5,7 @@ input {line-height: normal; }
 input[type="checkbox"] {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding: 0; } 
 nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 #menuToggle{filter:opacity(0);}
-.hero-head{position:relative;height:4em;position:fixed;width:100%;height: 64px;}
+.hero-head{/*position:relative;height:4em;*/position:fixed;width:100%;height:64px;z-index:9;}
 .hero-body{margin-top:65px;}
 section.hero { background-image: url(/work-gits/assets/img/cool-background.png);background-repeat: round;}
 .hero nav.navbar {
