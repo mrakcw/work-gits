@@ -5,15 +5,47 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="Access-Control-Allow-Origin" content="no-cors">
     <meta name="robots" content="noindex, nofollow, noarchive">
+    <link rel="canonical" href="https://mrakcw.tk/">
     <!-- MT -->
     <title>MrakCw TK - test dev project</title>
     <meta name="description" content="TMrakCw TK - test dev project">
+    <meta name="keywords" content="TMrakCw TK - test dev project">
+    <!-- ? IV PROPERTY -->
+    <meta property="og:site_name" content="PROTOTYPE MrakCw.tk 🌍">
+    <meta property="og:description" content="IV Page MrakCw.tk 🚀 ">
+    <meta property="article:author" content="MrakCw">
+    <meta property="og:image" content="https://mrakcw.tk/assets/img/-.jpg">
+    <!-- ВЖУХ -->
+    <meta name="author" content="MrakCw">
+    <meta property="telegram:channel" content="@mr_libs">
+    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
+    <meta property="article:published_time" content="">
+    <!--2022-01-07T11:00:00.654Z-->
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mrakcw.tk/">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="Pr">
+    <meta property="og:image" content="https://mrakcw.tk/assets/img/-card.jpg">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://mrakcw.tk/">
+    <meta property="twitter:title" content="&#128047; ">
+    <meta property="twitter:description" content="QQ">
+    <meta property="twitter:image" content="https://mrakcw.tk/assets/img/-card.jpg">
+    <meta name="application-name" content="Personal Web Page &#128170;">
     <!-- Options -->
-    <link rel="canonical" href="https://mrakcw.tk/">
-    <!-- <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"> -->
-    <!-- <link rel="apple-touch-icon" href="./favicon.png" type="image/png"> -->
+    <link rel="shortcut icon" href="/work-gits/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/work-gits/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" href="/work-gits/assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="/work-gits/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/work-gits/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/work-gits/assets/favicon/site.webmanifest">
     <!-- Files -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma-helpers/0.4.2/css/bulma-helpers.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulmaswatch/0.8.1/cyborg/bulmaswatch.min.css">
@@ -38,10 +70,23 @@
       figure figcaption {text-align: center;margin: 1rem 0 0 0;font-size: 1.75rem;font-family: 'Press Start 2P', cursive;}
       figure, figure figcaption {text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; filter: drop-shadow(2px 2px 1px #000);}
       figure a[name="article-img"] img {margin: 0 auto;}
-      .copyright{height:60px;bottom: 0px;flex:0 1 100%;}
-
-      /* ! It's 2th STEP-DECKTOP */
-      
+      #menuToggle{filter:opacity(0);}
+      .hero-head{position:fixed;width:100%;height:64px;z-index:9;}
+      .hero-body{margin-top:65px;}
+      .hero-foot .container{display:flex;justify-content:center;height:100%;min-height:-webkit-fill-available;position:relative}
+      .navbar-item:not(.navbar-dropdown a.navbar-item){height:64px;}
+      .navbar-item{padding:0 .75rem;}
+      .navbar-item .navbar-dropdown{font-size:1rem;}
+      .navbar-item .navbar-dropdown .navbar-divider{background-color:#fb3;}
+      .navbar-link.is-arrowless {height: 100%;}
+      .navbar-link:hover{color:#fb3}
+      .hero-body figure {max-width: 310px;margin:0 auto;}
+      .hero-body div.column {max-width: 890px;display:flex;flex-direction:column;align-items:center;gap:.5rem;}
+      .hero.is-fullheight .hero-body{justify-content:center;}
+      nav.navbar.border .container {max-width: 1200px;}
+      .navbar-link{font-weight: 500;}
+      section.hero .hero-body{padding:1rem 1.5rem;}
+      .copyright{height:60px;bottom: 2rem;flex:0 1 100%;}
       /* ! COMPONENTS */
       /* button option */
       #get-contact {border:solid 2px;min-width: 295px;max-width: 295px;width:295px;z-index:2;}
@@ -55,46 +100,47 @@
       .area{width: 100%; min-height:100vh; height: 100%; position: absolute; top: 0; pointer-events: none}.circles{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden}.circles li{ position: absolute; display: block; list-style: none; width: 20px; height: 20px; background: rgba(255, 255, 255, 0.2); animation: dynamic-bg 35s linear infinite; bottom: -150px}.circles li:nth-child(1){ left: 25%; width: 80px; height: 80px; animation-delay: 0s}.circles li:nth-child(2){ left: 10%; width: 20px; height: 20px; animation-delay: 2s; animation-duration: 12s}.circles li:nth-child(3){ left: 70%; width: 20px; height: 20px; animation-delay: 4s}.circles li:nth-child(4){ left: 40%; width: 60px; height: 60px; animation-delay: 0s; animation-duration: 18s}.circles li:nth-child(5){ left: 65%; width: 20px; height: 20px; animation-delay: 0s}.circles li:nth-child(6){ left: 75%; width: 110px; height: 110px; animation-delay: 3s}.circles li:nth-child(7){ left: 35%; width: 150px; height: 150px; animation-delay: 7s}.circles li:nth-child(8){ left: 50%; width: 25px; height: 25px; animation-delay: 15s; animation-duration: 45s}.circles li:nth-child(9){ left: 20%; width: 15px; height: 15px; animation-delay: 2s; animation-duration: 35s}.circles li:nth-child(10){ left: 85%; width: 150px; height: 150px; animation-delay: 0s; animation-duration: 11s}
       /* ---------- */
       /* ! MEDIA */
-      @media (max-width: 768px) {
-        .hero-body #hello {display: flex;flex-direction: column;justify-content: space-around;height: -webkit-fill-available;min-height: 100%;gap:2rem;}
-      }
       @media (max-width: 480px) {
         .container.columns.is-vcentered.is-centered {margin: 0 auto;display: flex;flex-direction: column;}
         figure figcaption {text-align: center;}
         figure a[name="article-img"] img {max-width: 45vw;}
       }
-      @media screen and (min-width: 1024px){ label[for="navbar-burger"]{ display: none;}}
+      @media (max-width: 768px) {
+        .hero-body #hello {display: flex;flex-direction: column;justify-content: space-around;height: -webkit-fill-available;min-height: 100%;gap:2rem;}
+      }
+      @media (max-width: 1023px){
+        #menuToggle:not(#menuToggle:checked){ opacity:0; position: absolute;left: 0;}
+        #menuToggle:checked{ opacity:1; height:100vh; position:absolute; left:-56%; top:61px; width:100%; filter:opacity(.55) ; transition: 2s  ease ; -webkit-transition: 2s  ease ; -moz-transition: 2s  ease ; -ms-transition: 2s  ease ; -o-transition: 2s  ease ; -webkit-filter:opacity(.55) ; }
+        #menuToggle:checked::after{ content: '';position:fixed; left:20%; top:0; opacity:1; height:100vh; width:100%; background-color: #000; }
+        #menuToggle:not(#menuToggle:checked) + .navbar-burger{pointer-events: none; top:61px;right: -100vw;opacity:.2;}
+        #menuToggle:checked + .navbar-burger{ top:61px;right:-7px;min-height: 96vh;}
+        .navbar-burger li{ opacity: 0; transition:opacity 0.35s 1s ease; -webkit-transition:opacity 0.35s 1s ease; -moz-transition:opacity 0.35s 1s ease; -ms-transition:opacity 0.35s 1s ease; -o-transition:opacity 0.35s 1s ease; }
+        #menuToggle:checked + .navbar-burger li{ width: 100%; margin: 0 auto; opacity: 1; transition:opacity 0.35s ease; -webkit-transition:opacity 0.35s ease; -moz-transition:opacity 0.35s ease; -ms-transition:opacity 0.35s ease; -o-transition:opacity 0.35s ease; }
+        .navbar>.container{display:flex;align-items:center;justify-content:space-between;max-height:58px;}
+        .navbar-end.touch{display:inline-flex;}
+        .navbar-end.touch svg{width: 2.2em;height: 2.2em;}
+        .navbar-end.touch label{ display: grid; place-items: center}
+        .navbar-burger{ position:absolute; width:-webkit-fill-available; min-width:fit-content; height:fit-content; min-height:50px; background:#2a2a2a50; margin:auto; padding:0 1rem; display:flex; flex-direction:column; justify-content:center;z-index: 9; }
+        ul.navbar-burger{ width: 80%; display: flex; padding:.5rem; transition: all .35s ease-in; -webkit-transition: all .35s ease-in; -moz-transition: all .35s ease-in; -ms-transition: all .35s ease-in; -o-transition: all .35s ease-in; }
+        .navbar-link{color:#333;}
+        .navbar-link:hover{color:#fb3;}
+      }
+      @media (min-width: 1024px){
+        .navbar-item.touch,.navbar-item.touch svg,#menuToggle{display: none;}
+        .navbar>.container{display:flex;align-items:center;justify-content:space-between;}
+        .navbar-menu{display:contents}
+        .navbar-dropdown{right:0;left:auto;}
+        .navbar-link:hover{background-color:rgba(255,255,255,.17);}
+        li.navbar-item.has-dropdown .navbar-dropdown a.navbar-link {min-width: 200px;background-color: unset;}
+        li.navbar-item.has-dropdown:hover .navbar-dropdown a.navbar-link {background-color: unset;}
+        li.navbar-item.has-dropdown:hover .navbar-dropdown a.navbar-link:hover {background-color:rgba(255,255,255,.17);}
+        li.navbar-item.has-dropdown a.navbar-link {min-width: unset;}
+      }
       /* ! ANIMATION */
       @-webkit-keyframes AnimateBG{ 0%{ background-position: 0% 50%;} 50%{ background-position: 100% 50%;} 100%{ background-position: 0% 50%;}}
       @keyframes AnimateBG{ 0%{ background-position: 0% 50%;} 50%{ background-position: 100% 50%;} 100%{ background-position: 0% 50%;}}
       @keyframes dynamic-bg{0%{ transform: translateY(0) rotate(0deg); opacity: 1; border-radius: 0}100%{ transform: translateY(-1000px) rotate(720deg); opacity: 0; border-radius: 50%}}
-
-
     </style>
-    <!-- ? IV PROPERTY -->
-    <meta property="og:site_name" content="PROTOTYPE MrakCw.tk 🌍">
-    <meta property="og:description" content="IV Page MrakCw.tk 🚀 ">
-    <meta property="article:author" content="MrakCw">
-    <meta property="og:image" content="https://mrakcw.tk/assets/img/-.jpg">
-    <!-- ВЖУХ -->
-    <meta property="telegram:channel" content="@mr_libs">
-    <meta property="tg:site_verification" content="g7j8/rPFXfhyrq5q0QQV7EsYWv4=">
-    <meta property="article:published_time" content="">
-    <!--2022-01-07T11:00:00.654Z-->
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mrakcw.tk/">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="Pr">
-    <meta property="og:image" content="https://mrakcw.tk/assets/img/-card.jpg">
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://mrakcw.tk/">
-    <meta property="twitter:title" content="&#128047; ">
-    <meta property="twitter:description" content="QQ">
-    <meta property="twitter:image" content="https://mrakcw.tk/assets/img/-card.jpg">
-    <meta name="author" content="MrakCw">
-    <meta name="application-name" content="Personal Web Page &#128170;">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="application/ld+json">
       {"@context": "https://www.schema.org",
@@ -113,77 +159,8 @@
           "@id": "https://mrakcw.tk#hello",
           "name": " template"}}]}
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;500;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <style>
-      
-      
-      
-        
-      
-    </style>
-    <style>
-      
-
-#menuToggle{filter:opacity(0);}
-.hero-head{position:fixed;width:100%;height:64px;z-index:9;}
-.hero-body{margin-top:65px;}
-.hero-foot .container{display:flex;justify-content:center;height:100%;min-height:-webkit-fill-available;position:relative}
-.navbar-item:not(.navbar-dropdown a.navbar-item){height:64px;}
-.navbar-item{padding:0 .75rem;}
-.navbar-item .navbar-dropdown{font-size:1rem;}
-.navbar-item .navbar-dropdown .navbar-divider{background-color:#fb3;}
-.navbar-link.is-arrowless {height: 100%;}
-.navbar-link:hover{color:#fb3}
-.hero-body figure {max-width: 310px;margin:0 auto;}
-.hero-body div.column {max-width: 890px;display:flex;flex-direction:column;align-items:center;gap:.5rem;}
-.hero.is-fullheight .hero-body{justify-content:center;}
-nav.navbar.border .container {max-width: 1200px;}
-.navbar-link{font-weight: 500;}
-section.hero .hero-body{padding:1rem 1.5rem;}
-
-@media (max-width: 1023px){
-	/* ! TRUE */
-	#menuToggle:not(#menuToggle:checked){ opacity:0; position: absolute;left: 0;}
-	/* .hero-head{overflow:hidden;} */
-	#menuToggle:checked{ opacity:1; height:100vh; position:absolute; left:-56%; top:61px; width:100%; filter:opacity(.55) ; transition: 2s  ease ; -webkit-transition: 2s  ease ; -moz-transition: 2s  ease ; -ms-transition: 2s  ease ; -o-transition: 2s  ease ; -webkit-filter:opacity(.55) ; }
-	#menuToggle:checked::after{ content: '';position:fixed; left:20%; top:0; opacity:1; height:100vh; width:100%; background-color: #000; }
-	#menuToggle:not(#menuToggle:checked) + .navbar-burger{pointer-events: none; top:61px;right: -100vw;opacity:.2;}
-	#menuToggle:checked + .navbar-burger{ top:61px;right:-7px;min-height: 96vh;}
-	.navbar-burger li{ opacity: 0; transition:opacity 0.35s 1s ease; -webkit-transition:opacity 0.35s 1s ease; -moz-transition:opacity 0.35s 1s ease; -ms-transition:opacity 0.35s 1s ease; -o-transition:opacity 0.35s 1s ease; }
-	#menuToggle:checked + .navbar-burger li{ width: 100%; margin: 0 auto; opacity: 1; transition:opacity 0.35s ease; -webkit-transition:opacity 0.35s ease; -moz-transition:opacity 0.35s ease; -ms-transition:opacity 0.35s ease; -o-transition:opacity 0.35s ease; }
-	.navbar>.container{display:flex;align-items:center;justify-content:space-between;max-height:58px;}
-	.navbar-end.touch{display:inline-flex;}
-	.navbar-end.touch svg{width: 2.2em;height: 2.2em;}
-	.navbar-end.touch label{ display: grid; place-items: center}
-	.navbar-burger{ position:absolute; width:-webkit-fill-available; min-width:fit-content; height:fit-content; min-height:50px; background:#2a2a2a50; margin:auto; padding:0 1rem; display:flex; flex-direction:column; justify-content:center;z-index: 9; }
-	ul.navbar-burger{ width: 80%; display: flex; padding:.5rem; transition: all .35s ease-in; -webkit-transition: all .35s ease-in; -moz-transition: all .35s ease-in; -ms-transition: all .35s ease-in; -o-transition: all .35s ease-in; }
-  .navbar-link{color:#333;}
-  .navbar-link:hover{color:#fb3;}
-  
-	/* ! FALSE */
-	
-}
-@media (min-width: 1024px){
-	/* ! TRUE */
-	.navbar-item.touch,.navbar-item.touch svg,#menuToggle{display: none;}
-	.navbar>.container{display:flex;align-items:center;justify-content:space-between;}
-	.navbar-menu{display:contents}
-  .navbar-dropdown{right:0;left:auto;}
-  .navbar-link:hover{background-color:rgba(255,255,255,.17);}
-  li.navbar-item.has-dropdown .navbar-dropdown a.navbar-link {min-width: 200px;background-color: unset;}
-  li.navbar-item.has-dropdown:hover .navbar-dropdown a.navbar-link {background-color: unset;}
-  li.navbar-item.has-dropdown:hover .navbar-dropdown a.navbar-link:hover {background-color:rgba(255,255,255,.17);}
-  li.navbar-item.has-dropdown a.navbar-link {min-width: unset;}
-	/* ! FALSE */
-}
-    </style>
-
   </head>
   <body>
-
       <!-- 1st screen -->
       <section class="hero iv-template is-fullheight">
         <!-- ! hero-head -->
