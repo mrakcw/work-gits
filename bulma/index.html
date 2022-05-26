@@ -145,7 +145,7 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 .navbar-link.is-arrowless {height: 100%;}
 .navbar-link:hover{color:#fb3}
 .hero-body figure {max-width: 310px;margin:0 auto;}
-.hero-body div.column {max-width: 890px;}
+.hero-body div.column {max-width: 890px;display:flex;flex-direction:column;align-items:center;gap:.5rem;}
 .hero.is-fullheight .hero-body{justify-content:center;}
 nav.navbar.border .container {max-width: 1200px;}
 .navbar-link{font-weight: 500;}
@@ -181,7 +181,7 @@ nav.navbar.border .container {max-width: 1200px;}
   .navbar-link:hover{background-color:rgba(255,255,255,.17);}
   .navbar-item.has-dropdown .navgbar-link {background-color: unset;}
   .navbar-item.has-dropdown:hover .navgbar-link {background-color: unset;}
-  li.navbar-item.has-dropdown > a.navbar-link {min-width: 200px;}
+  li.navbar-item.has-dropdown > a.navbar-link:not(a.navbar-link:first-child) {min-width: 200px;}
 	/* ! FALSE */
 }
     </style>
@@ -233,7 +233,7 @@ nav.navbar.border .container {max-width: 1200px;}
               <h1 class="title has-text-white pb-4">HI THERE 👋</h1>
               <p class="subtitle">I'M DENIS aka MRAKCW — JUNIOR FRONT END DEVELOPER.</p>
               <!-- <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold">GET IN TOUCH</a> -->
-              <a class="button is-success is-rounded is-outlined px-6 mt-4 has-text-weight-bold" id="get-contact" href="#contact"></a>
+              <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a>
               <!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg> -->
             </div>
           </div>
