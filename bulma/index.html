@@ -41,7 +41,7 @@
       nav.navbar.border .navbar-item img {max-height:48px;}
       #burger a:hover img{ filter: drop-shadow(0px 0px 4px #fff);}
       .navbar-logo{ filter: drop-shadow(2px 3px 0px #fff);}
-      .nav-logo .navbar-logo:hover{ background-color: unset;}
+      .navbar-logo:hover{ background-color: unset;}
       .iv-template{ background: rgb(2, 0, 36); background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 5%, rgba(52, 49, 236, 1) 51%, rgba(42, 10, 44, 1) 95%); background-size: 350% 350%; -webkit-animation: AnimateBG 20s ease infinite; animation: AnimateBG 20s ease infinite;}
       nav.navbar.border{ border-bottom: 3px #fb3 solid; border-top: 3px #fb3 solid;height:64px;}
       .its-my{ transform: scale(.85);}
@@ -105,7 +105,7 @@
     <style>
       body {font-family: 'Jura', sans-serif;}
       /* button option */
-      #get-contact {min-width: 295px;max-width: 296px;}
+      #get-contact {min-width: 295px;max-width: 295px;width:295px;}
       #get-contact::before {content: '';background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg>');width: 1rem;height: 1rem;transform: translateX(-.5rem);margin-left: .5rem;}
       #get-contact::after {content: 'Open to new Projects';}
       #get-contact:hover {display:flex;margin:0 auto;justify-content:space-around;color:#000;}
@@ -213,7 +213,7 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 					<div class="container">
 						<!-- ! LOGO -->
 						<div class="navbar-brand navbar-start">
-							<a class="navbar-item" href="https://mrakcw.tk/"><img src="/work-gits/assets/img/logo/mr-navbar.svg" alt="logo"></a>
+							<a class="navbar-item" href="https://mrakcw.tk/"><img src="/work-gits/assets/img/logo/mr-navbar.svg" alt="logo" title="Go home" class="navbar-logo"></a>
 						</div>
 						<!-- ! TOGGLE MENU BURGER -->
 						<div class="navbar-end touch">
@@ -222,27 +222,8 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 							<ul class="navbar-menu navbar-burger has-background-white-bis has-text-centered">
 								<li class="navbar-item"><div class="subtitle">About</div></li>
 								<li class="navbar-item"><div class="subtitle">Documentation</div></li>
-								<li class="navbar-item"><div class="subtitle"><div class="dropdown is-active">
-                  <div class="dropdown-trigger">
-                    <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
-                      <span>More</span>
-                      <span class="icon is-small">
-                        <i class="fas fa-angle-down" aria-hidden="true"></i>
-                      </span>
-                    </button>
-                  </div>
-                  <div class="dropdown-menu" id="dropdown-menu" role="menu">
-                    <div class="dropdown-content">
-                      <a href="#" class="dropdown-item">
-                        
-                      </a>
-                      <a class="dropdown-item">
-                        
-                      </a>
-                    </div>
-                  </div>
-                </div></div></li>
-								<li class="navbar-item"><a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a></li>
+								<li class="navbar-item"><div class="subtitle">dr</div></li>
+								<!-- <li class="navbar-item"><a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a></li> -->
 							</ul>
 						</div>
 					</div>
@@ -265,7 +246,7 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
               <h1 class="title has-text-white pb-4">HI THERE 👋</h1>
               <p class="subtitle">I'M DENIS aka MRAKCW — JUNIOR FRONT END DEVELOPER.</p>
               <!-- <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold">GET IN TOUCH</a> -->
-              <!-- <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a> -->
+              <a class="button is-success is-rounded is-outlined px-6 has-text-weight-bold" id="get-contact" href="#contact"></a>
               <!-- <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg> -->
             </div>
           </div>
