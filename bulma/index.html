@@ -37,12 +37,13 @@
       #navbar-burger:checked+.navbar-menu{ display: flex; flex-direction: column; position: absolute; width: 96%; top: 4.99em; border: solid 10px #999;}
       /* #navbar-burger:not(#navbar-burger:checked)+.navbar-menu{} */
       #burger{ max-height: 4em; max-width: -webkit-fill-available; position: relative;}
-      .navbar-item img{ width: 90%; height: 90%; pointer-events: none;}
+      .navbar-item img{ width:auto;height:100%;pointer-events:none;}
+      nav.navbar.border .navbar-item img {max-height:48px;}
       #burger a:hover img{ filter: drop-shadow(0px 0px 4px #fff);}
       .navbar-logo{ filter: drop-shadow(2px 3px 0px #fff);}
       .nav-logo .navbar-logo:hover{ background-color: unset;}
       .iv-template{ background: rgb(2, 0, 36); background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 5%, rgba(52, 49, 236, 1) 51%, rgba(42, 10, 44, 1) 95%); background-size: 350% 350%; -webkit-animation: AnimateBG 20s ease infinite; animation: AnimateBG 20s ease infinite;}
-      nav.navbar.border{ border-bottom: 3px #fb3 solid; border-top: 2px #fb3 solid;}
+      nav.navbar.border{ border-bottom: 3px #fb3 solid; border-top: 3px #fb3 solid;height:64px;}
       .its-my{ transform: scale(.85);}
       .title, .subtitle{ text-shadow: -2px -2px 0 #000, 2px 2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; filter: drop-shadow(2px 2px 2px #000);}
       .toggle-links{ flex: 0 0 95px}
