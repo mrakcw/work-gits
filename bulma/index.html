@@ -105,7 +105,7 @@
     <style>
       body {font-family: 'Jura', sans-serif;}
       /* button option */
-      #get-contact {border:solid;min-width: 295px;max-width: 295px;width:295px;}
+      #get-contact {border:solid 3px;min-width: 295px;max-width: 295px;width:295px;z-index:2;}
       #get-contact::before {content: '';background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle fill="green" cx="50" cy="50" r="50"/></svg>');width: 1rem;height: 1rem;transform: translateX(-.5rem);margin-left: .5rem;}
       #get-contact::after {content: 'Open to new Projects';}
       #get-contact:hover {display:flex;margin:0 auto;justify-content:space-around;color:#fff;}
@@ -154,7 +154,7 @@ nav.navbar.border .container {max-width: 1200px;}
 	/* ! TRUE */
 	#menuToggle:not(#menuToggle:checked){ opacity:0; position: absolute;left: 0;}
 	/* .hero-head{overflow:hidden;} */
-	#menuToggle:checked{ opacity:1; height:100vh; position:absolute; left:-56%; top:61px; width:100%; filter:opacity(.35) ; transition: 2s  ease ; -webkit-transition: 2s  ease ; -moz-transition: 2s  ease ; -ms-transition: 2s  ease ; -o-transition: 2s  ease ; -webkit-filter:opacity(.35) ; }
+	#menuToggle:checked{ opacity:1; height:100vh; position:absolute; left:-56%; top:61px; width:100%; filter:opacity(.35) ; transition: 2s  ease ; -webkit-transition: 2s  ease ; -moz-transition: 2s  ease ; -ms-transition: 2s  ease ; -o-transition: 2s  ease ; -webkit-filter:opacity(.55) ; }
 	#menuToggle:checked::after{ content: '';position:fixed; left:20%; top:0; opacity:1; height:100vh; width:100%; background-color: #000; }
 	#menuToggle:not(#menuToggle:checked) + .navbar-burger{pointer-events: none; top:61px;right: -100vw;opacity:.2;}
 	#menuToggle:checked + .navbar-burger{ top:61px;right:-7px;min-height: 96vh;}
@@ -227,9 +227,9 @@ nav.navbar.border .container {max-width: 1200px;}
             <!-- IV Schem -->
             <!-- COL £1 -->
             <!-- ? COVER FOR IV CARD ARTICLE -->
-            <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="image is--128x128 column is-narrow-desktop">
+            <figure itemscope="itemscope" itemtype="http://schema.org/ImageObject" class="image column is-narrow-desktop">
               <a name="article-img">
-                <img class="image is-rounded" src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" itemprop="contentUrl" width="350" height="350">
+                <img class="image is-rounded" src="https://blog.mrakcw.cc.ua/assets/img/mrakcw.jpg" itemprop="contentUrl" width="300" height="300" alt="mrakcw photo" title="MrakCw">
               </a>
               <figcaption itemprop="description">MrakCw Dev</figcaption>
             </figure>
