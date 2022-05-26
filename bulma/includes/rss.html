@@ -1,0 +1,27 @@
+<style>
+	.feedEkList{width:80%;margin:.5rem auto;border-radius:.5rem; list-style:none outside none;background-color:#FFFFFF; border:1px solid #D3CAD7; padding:4px 6px; color:#3E3E3E;}
+	.feedEkList li{border-bottom:1px solid #D3CAD7; padding:5px;}
+	.feedEkList li:last-child{border-bottom:none;}
+	.itemTitle a{font-weight:bold; color:#000; text-decoration:none }
+	.itemTitle a:hover{ text-decoration:underline }
+	.itemDate{font-size:11px;color:#AAAAAA;}
+	#example { color:#a12712;font-weight: bold; cursor: pointer; text-align:center;font-size:2em;margin:1rem auto;}
+	img {width:100%}
+</style>
+
+<div id="example">RSS Feed from <a href="https://t.me/mr_libs">Вжух</a></div>
+<div id="divRss"></div>
+
+<script>
+	$(document).ready(function(){
+    $('#divRss').FeedEk({ FeedUrl : 'https://tg.i-c-a.su/rss/mr_libs' });
+		var r = Math.floor(Math.random()*256);
+		var g = Math.floor(Math.random()*256);
+		var b = Math.floor(Math.random()*256);
+    $('#example, .itemTitle a').css("color", getHex(r,g,b));
+    $('#example').click(function() { $('.itemTitle a').css("color", getHex(r,g,b)); });
+    function intToHex(n){
+			n = n.toString(16);
+      if( n.length < 2) n = "0"+n; return n; }
+    function getHex(r, g, b){ return '#'+intToHex(r)+intToHex(g)+intToHex(b); }});
+</script>
