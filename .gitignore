@@ -4,3 +4,5 @@ bulma/1.js
 .vscode/*
 bulma/2.js
 bulma/3.js
+*/.DC_Store
+.DS_Store
