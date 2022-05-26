@@ -142,6 +142,9 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 .navbar-item{padding:0 .75rem;}
 .navbar-item .navbar-dropdown{font-size:1rem;}
 .navbar-item .navbar-dropdown .navbar-divider{background-color:#fb3;}
+.navbar-link.is-arrowless {height: 100%;}
+.navbar-link:hover{color:#fb3}
+
 @media (max-width: 1023px){
 	/* ! TRUE */
 	#menuToggle:not(#menuToggle:checked){ opacity:0; position: absolute;left: 0;}
@@ -188,8 +191,8 @@ nav[aria-label="main navigation"]{position:fixed;width: 100%;z-index: 9999;}
 							<label for="menuToggle" class="navbar-item touch"><svg viewBox="0 0 448 512" width="15" fill="#fff">	<path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" /></svg></label>
 							<input id="menuToggle" type="checkbox">
 							<ul class="navbar-menu navbar-burger has-background-white-bis has-text-centered">
-								<li class="navbar-item"><div class="subtitle">About</div></li>
-								<li class="navbar-item"><div class="subtitle">Documentation</div></li>
+								<li class="navbar-item"><div class="navbar-link is-arrowless">About</div></li>
+								<li class="navbar-item"><div class="navbar-link is-arrowless">Documentation</div></li>
 								<li class="navbar-item has-dropdown is-hoverable">
                     <a class="navbar-link">More</a>
                     <div class="navbar-dropdown">
